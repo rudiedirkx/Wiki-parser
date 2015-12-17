@@ -2,6 +2,11 @@
 
 namespace rdx\wikiparser;
 
+// Method 1: [x] create nested arrays for every component
+// Method 2: [x] create Components with content[] with Components
+// Method 3: [.] real stream, find complete component markup, create as whole, create subs in there
+// Method 4: [ ] real stream, create Component after the first property (component type)
+
 use rdx\wikiparser\Component;
 
 class Parser {
