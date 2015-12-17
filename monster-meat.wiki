@@ -5,6 +5,7 @@ __NOTOC__
 |image2 = Cooked Monster Meat
 |health1 = -20
 |health2 = -3
+|droppedBy = {{pic|22|Beardling}}(40%)<br>{{pic|32|Spider}}{{pic|38|Spider Warrior}}{{pic|28|Cave Spider}}{{pic|32|Spitter}}{{pic|32|Dangling Depth Dweller}}(50%)<br>{{pic|26|Hound}}{{pic|26|Red Hound}}{{pic|32|Blue Hound}}{{pic|29|Beardlord}}{{pic|24|Krampus}}{{pic|22|Treeguard}}(&times;1)<br>{{pic|14|Tentacle}}(&times;2) {{pic|28|Glommer}} (x3) {{pic|24|Depths Worm}} {{pic|44|Spider Queen}}(&times;4) {{pic|40|Varg}} (&times;4-6)
 |hunger1 = 18.75
 |hunger2 = 18.75
 |sanity1 = -15
@@ -13,7 +14,6 @@ __NOTOC__
 |spoil2 = 15 Days
 |stacklimit1 = 20
 |stacklimit2 = 20
-|droppedBy = {{pic|22|Beardling}}(40%)<br>{{pic|32|Spider}}{{pic|38|Spider Warrior}}{{pic|28|Cave Spider}}{{pic|32|Spitter}}{{pic|32|Dangling Depth Dweller}}(50%)<br>{{pic|26|Hound}}{{pic|26|Red Hound}}{{pic|32|Blue Hound}}{{pic|29|Beardlord}}{{pic|24|Krampus}}{{pic|22|Treeguard}}(&times;1)<br>{{pic|14|Tentacle}}(&times;2) {{pic|28|Glommer}} (x3) {{pic|24|Depths Worm}} {{pic|44|Spider Queen}}(&times;4) {{pic|40|Varg}} (&times;4-6)
 |spawnCode1 = "monstermeat"
 |spawnCode2 = "cookedmonstermeat"}}
 {{Quote|Gross. It's full of hairs|Willow}}
