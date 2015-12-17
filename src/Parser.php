@@ -19,45 +19,34 @@ class Parser {
 	 *
 	 */
 	public function structure() {
-		$modules = $this->modules();
-	}
+		// @todo Make this real streaming, because a | outside a {{component}} doesn't mean anything
+		$parts = preg_split('#\s*({{|}}|\|)\s*#', $this->text, -1, PREG_SPLIT_DELIM_CAPTURE);
 
-	/**
-	 *
-	 */
-	public function modules() {
-		$parts = preg_split('#({{|}})#', $this->text, -1, PREG_SPLIT_DELIM_CAPTURE);
-
-		$tree = array();
-		$location = array();
+		$tree = new Component;
+		$branch = $tree;
 		foreach ( $parts as $part ) {
-			// Get current branch in $tree from $location
-			if ( $location ) {
-				eval('$branch = &$tree[' . implode('][', $location) . '];');
-			}
-			else {
-				$branch = &$tree;
-			}
-
+			// New component, add in current branch
 			if ( $part == '{{' ) {
-				// Create new branch IN current branch and extend location
-				$branch[] = array();
-				$location[] = count($branch) - 1;
-			}
-			elseif ( $part == '}}' ) {
-				// End branch, by shortening the current location
-				array_pop($location);
-			}
-			elseif ( strlen($part = trim($part)) ) {
-				// Add parsed component to current branch
-				$branch[] = Component::load($part);
+				$branch = $branch->add();
+				$branch->newProperty();
 			}
 
-			unset($branch);
+			// End component, back to previous
+			elseif ( $part == '}}' ) {
+				$branch = $branch->parent;
+			}
+
+			// Ignore property delimiters
+			elseif ( $part == '|' ) {
+				$branch->newProperty();
+			}
+
+			// Add properties (inside components) and inline text (outside components)
+			elseif ( strlen($part = trim($part)) ) {
+				$branch->stream($part);
+			}
 		}
 
-print_r($tree);
-print_r($parts);
 		return $tree;
 	}
 

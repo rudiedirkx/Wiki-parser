@@ -2,6 +2,8 @@
 
 namespace rdx\wikiparser;
 
+use rdx\wikiparser\Component;
+use rdx\wikiparser\Property;
 use rdx\wikiparser\components\Unknown;
 use rdx\wikiparser\components\Citation;
 use rdx\wikiparser\components\Conversion;
@@ -9,72 +11,83 @@ use rdx\wikiparser\components\Picture;
 
 class Component {
 
+	public $parent; // rdx\wikiparser\Component
 	public $type = '';
-	public $properties = array();
+	public $content = array();
+	public $streamingProperty; // rdx\wikiparser\Component
 
 	/**
 	 *
 	 */
-	public function __construct( $properties, $type ) {
+	public function __construct( $parent = null ) {
+		if ( $parent ) {
+			$this->parent = $parent;
+		}
+	}
+
+	/**
+	 *
+	 */
+	public function add() {
+		return $this->content[] = new $this($this);
+	}
+
+	/**
+	 *
+	 */
+	public function newProperty() {
+		$this->streamingProperty = $this->content[] = new Property($this);
+		$this->streamingProperty->streamType('property');
+		return $this->streamingProperty;
+	}
+
+	/**
+	 *
+	 */
+	public function stream( $property ) {
+		if ( !$this->parent ) {
+			return $this->streamContent($property);
+		}
+
+		if ( !$this->type ) {
+			return $this->streamType($property);
+		}
+
+		list($name, $value) = preg_split('#\s*=\s*#', $property . '=');
+		return $this->streamProperty($name, $value);
+	}
+
+	/**
+	 *
+	 */
+	public function streamContent( $content ) {
+		$this->content[] = $content;
+	}
+
+	/**
+	 *
+	 */
+	public function streamType( $type ) {
 		$this->type = $type;
-		$this->properties = $this->parseProperties($properties);
 	}
 
 	/**
 	 *
 	 */
-	public function parseProperties( $properties ) {
-		return $properties;
-	}
-
-
-
-	static protected $loaders = [];
-
-	/**
-	 *
-	 */
-	static public function load( $text ) {
-		$properties = array_map('trim', explode('|', trim($text)));
-		$type = array_shift($properties);
-
-		$class = static::loader($type);
-		return new $class($properties, $type);
+	public function streamProperty( $name, $value = '' ) {
+		$name = $this->decode($name);
+		$value = $this->decode($value);
+		$this->streamingProperty->streamContent($name . ':' . $value);
+		// $this->content[$this->contentIndex][] = array($name, $value);
 	}
 
 	/**
 	 *
 	 */
-	static public function loader( &$type ) {
-		$loaders = static::$loaders;
-		$loaders[] = __CLASS__ . '::_loader';
-
-		foreach ( $loaders as $callback ) {
-			if ( $class = call_user_func_array($callback, array(&$type)) ) {
-				return $class;
-			}
-		}
-
-		return Unknown::class;
-	}
-
-	/**
-	 *
-	 */
-	static public function _loader( &$type ) {
-		switch ( $type ) {
-			case 'cite book':
-			case 'cite web':
-			case 'cite journal':
-				$type = substr($type, 5);
-				return Citation::class;
-
-			case 'convert':
-				return Conversion::class;
-
-			case 'pic':
-				return Picture::class;
-		}
+	public function decode( $value ) {
+		return strtr(html_entity_decode($value), array(
+			'&times;' => 'x',
+		));
 	}
 
 }
