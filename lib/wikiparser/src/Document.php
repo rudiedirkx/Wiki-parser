@@ -81,7 +81,7 @@ class Document {
 	public function createText( $text ) {
 		if ( preg_match('#^=(=+)#', $text, $match) ) {
 			$section = trim($text, '= ');
-			return $this->createHeading($section, 1 + strlen($match[1]));
+			return $this->createHeading($section, strlen($match[1]) + 1);
 		}
 
 		return new Text($this, $text);

@@ -89,9 +89,9 @@ class Parser {
 		$list = null;
 		foreach ( $sections as $section ) {
 			if ( $section = trim($section) ) {
-				if ( $section[0] == '=' ) {
+				if ( preg_match('#^=(=+)#', $section, $match) ) {
 					$title = trim($section, '= ');
-					$component = $this->document->createHeading($title, 2);
+					$component = $this->document->createHeading($title, strlen($match[1]) + 1);
 
 					$list = null;
 				}
