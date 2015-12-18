@@ -45,7 +45,7 @@ class Heading extends Text {
 			}
 		}
 
-		echo '</h' . $this->level . '>';
+		echo '</h' . $this->level . ">\n\n";
 	}
 
 }

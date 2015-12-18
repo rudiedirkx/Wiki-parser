@@ -39,7 +39,7 @@ abstract class Renderable {
 	 *
 	 */
 	public function renderSectionEnd() {
-		echo '</p>';
+		echo "</p>\n\n";
 	}
 
 }

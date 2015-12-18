@@ -16,7 +16,7 @@ class Linker {
 	 *
 	 */
 	public function articleURL( $article ) {
-		return '/wiki/' . $article;
+		return '/wiki/' . ucfirst(str_replace(' ', '_', $article));
 	}
 
 }

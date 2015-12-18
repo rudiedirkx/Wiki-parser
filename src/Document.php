@@ -8,6 +8,8 @@ use rdx\wikiparser\Linker;
 use rdx\wikiparser\Component;
 use rdx\wikiparser\Text;
 use rdx\wikiparser\Heading;
+use rdx\wikiparser\Paragraph;
+use rdx\wikiparser\UList;
 
 class Document {
 
@@ -38,6 +40,14 @@ class Document {
 	/**
 	 *
 	 */
+	public function parseSimple( $text, $allow = array() ) {
+		$content = $this->parser->parseDocumentSimple($text, $allow);
+		$this->load($content);
+	}
+
+	/**
+	 *
+	 */
 	public function load( array $content ) {
 		$this->content = $content;
 	}
@@ -54,14 +64,34 @@ class Document {
 	/**
 	 *
 	 */
+	public function createParagraph( $text ) {
+		return new Paragraph($this, $text);
+	}
+
+	/**
+	 *
+	 */
+	public function createList() {
+		return new UList($this);
+	}
+
+	/**
+	 *
+	 */
 	public function createText( $text ) {
 		if ( preg_match('#^=(=+)#', $text, $match) ) {
 			$section = trim($text, '= ');
-			$heading = new Heading($this, $section, 1 + strlen($match[1]));
-			return $heading;
+			return $this->createHeading($section, 1 + strlen($match[1]));
 		}
 
 		return new Text($this, $text);
+	}
+
+	/**
+	 *
+	 */
+	public function createHeading( $text, $level ) {
+		return new Heading($this, $text, $level);
 	}
 
 	/**
@@ -98,7 +128,7 @@ class Document {
 		$text = preg_replace("#''(.+?)''#", '<i>$1</i>', $text);
 
 		// Lists
-		$text = preg_replace('#(^|[\r\n])\*#', '<br>* ', $text);
+		// $text = preg_replace('#(^|[\r\n])\*#', '<br>* ', $text);
 
 		return $text;
 	}

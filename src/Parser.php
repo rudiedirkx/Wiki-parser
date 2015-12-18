@@ -21,6 +21,105 @@ class Parser {
 	/**
 	 *
 	 */
+	public function parseDocumentSimple( $text = '', $allow = array() ) {
+		$text or $text = $this->text;
+
+		$parts = preg_split('#(\{\{|\}\}|\[\[|\]\])#', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
+
+		// Strip components
+		$discarding = 0;
+		$opening = false;
+		foreach ( $parts as $i => $part ) {
+			switch ( $part ) {
+				case '{{':
+					if ( $discarding ) {
+						$discarding++;
+
+						unset($parts[$i]);
+					}
+					else {
+						$opening = true;
+					}
+					break;
+
+				case '}}';
+					if ( $discarding ) {
+						$discarding--;
+
+						unset($parts[$i]);
+					}
+
+					break;
+
+				default:
+					if ( $discarding ) {
+						unset($parts[$i]);
+					}
+					elseif ( $opening ) {
+						$opening = false;
+						$type = trim(explode('|', $part)[0]);
+						if ( !isset($allow[$type]) ) {
+							$discarding++;
+
+							unset($parts[$i], $parts[$i-1]);
+						}
+					}
+					break;
+			}
+		}
+
+		// Replace simple components
+		$text = implode($parts);
+		$text = preg_replace_callback('#\{\{[\s\S]+?\}\}#', function($match) use ($allow) {
+			$component = substr(trim($match[0]), 2, -2);
+			$parts = array_map('trim', explode('|', $component));
+			$type = array_shift($parts);
+
+			$properties = array();
+			foreach ($parts as $property) {
+				$this->createProperty($properties, $property);
+			}
+
+			return call_user_func($allow[$type], $properties, $type);
+		}, $text);
+
+		// Create renderable paragraphs
+		$sections = preg_split('#[\r\n]+#', $text);
+		$document = array();
+		$list = null;
+		foreach ( $sections as $section ) {
+			if ( $section = trim($section) ) {
+				if ( $section[0] == '=' ) {
+					$title = trim($section, '= ');
+					$component = $this->document->createHeading($title, 2);
+
+					$list = null;
+				}
+				elseif ( $section[0] == '*' ) {
+					if ( !$list ) {
+						$component = $list = $this->document->createList();
+					}
+					else {
+						$component = null;
+					}
+					$list->content[] = ltrim($section, '* ');
+				}
+				else {
+					$component = $this->document->createParagraph($section);
+
+					$list = null;
+				}
+
+				$component and $document[] = $component;
+			}
+		}
+
+		return $document;
+	}
+
+	/**
+	 *
+	 */
 	public function parseDocument( $text = '' ) {
 		$text or $text = $this->text;
 
