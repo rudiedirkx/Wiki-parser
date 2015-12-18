@@ -8,6 +8,7 @@ namespace rdx\wikiparser;
 // Method 4: [ ] real stream, create Component after the first property (component type)
 
 use rdx\wikiparser\Component;
+use rdx\wikiparser\Text;
 
 class Parser {
 
@@ -16,43 +17,128 @@ class Parser {
 	/**
 	 *
 	 */
-	public function __construct( $text ) {
-		$this->text = $text;
+	public function __construct( $text = '' ) {
+		$this->text = trim($text);
 	}
 
 	/**
 	 *
 	 */
-	public function structure() {
-		// @todo Make this real streaming, because a | outside a {{component}} doesn't mean anything
-		$parts = preg_split('#\s*({{|}}|\|)\s*#', $this->text, -1, PREG_SPLIT_DELIM_CAPTURE);
+	public function parseDocument( $text = '' ) {
+		$text or $text = $this->text;
 
-		$tree = new Component;
-		$branch = $tree;
-		foreach ( $parts as $part ) {
-			// New component, add in current branch
-			if ( $part == '{{' ) {
-				$branch = $branch->add();
-				$branch->newProperty();
+		$components = array();
+
+		$length = strlen($text);
+		$last2 = '';
+		$depth = $start = $end = 0;
+		for ( $i = 0; $i < $length; $i++ ) {
+			$char = $text[$i];
+			$last2 = substr($last2 . $char, -2);
+
+			if ( $last2 == '{{' ) {
+				$depth++;
+
+				// Start a top level component
+				if ( $depth == 1 ) {
+					$start = $i - 1;
+
+					// Save pre-text
+					if ( $component = trim(substr($text, $end, $start - $end)) ) {
+						$components[] = $this->createText($component);
+					}
+				}
 			}
+			elseif ( $last2 == '}}' ) {
+				$depth--;
 
-			// End component, back to previous
-			elseif ( $part == '}}' ) {
-				$branch = $branch->parent;
-			}
-
-			// Ignore property delimiters
-			elseif ( $part == '|' ) {
-				$branch->newProperty();
-			}
-
-			// Add properties (inside components) and inline text (outside components)
-			elseif ( strlen($part = trim($part)) ) {
-				$branch->stream($part);
+				// End a top level component
+				if ( $depth == 0 ) {
+					$end = $i + 1;
+					if ( $component = trim(substr($text, $start, $end - $start)) ) {
+						$components[] = $this->createComponent($component);
+					}
+				}
 			}
 		}
 
-		return $tree;
+		// Save last text
+		if ( $component = trim(substr($text, $end)) ) {
+			$components[] = $this->createText($component);
+		}
+
+		return $components;
+	}
+
+	/**
+	 *
+	 */
+	public function parseProperties( $text = '' ) {
+		$text or $text = $this->text;
+
+		$properties = array();
+
+		$length = strlen($text);
+		$last2 = '';
+		$depth = $end = 0;
+		for ( $i = 0; $i < $length; $i++ ) {
+			$char = $text[$i];
+			$last2 = substr($last2 . $char, -2);
+
+			// Start sub component
+			if ( in_array($last2, array('{{', '[[')) ) {
+				$depth++;
+			}
+
+			// End sub component
+			elseif ( in_array($last2, array('}}', ']]')) ) {
+				$depth--;
+			}
+
+			// End of first level property
+			elseif ( $char == '|' && $depth == 0 ) {
+				$property = trim(substr($text, $end, $i - $end));
+				$end = $i + 1;
+
+				$this->createProperty($properties, $property);
+			}
+		}
+
+		// Add the last property
+		if ( $property = trim(substr($text, $end)) ) {
+			$this->createProperty($properties, $property);
+		}
+
+		return $properties;
+	}
+
+	/**
+	 *
+	 */
+	protected function createProperty( &$properties, $property ) {
+		$equaled = explode('=', $property, 2);
+		$name = trim($equaled[0]);
+		if ( isset($equaled[1]) ) {
+			$value = trim($equaled[1]);
+			$properties[$name] = $value;
+		}
+		else {
+			$properties[] = $name;
+		}
+	}
+
+	/**
+	 *
+	 */
+	protected function createText( $text ) {
+		return new Text($text);
+	}
+
+	/**
+	 *
+	 */
+	protected function createComponent( $text ) {
+		return Component::load($text);
 	}
 
 }

@@ -2,83 +2,37 @@
 
 namespace rdx\wikiparser;
 
+use rdx\wikiparser\Parser;
 use rdx\wikiparser\Component;
-use rdx\wikiparser\Property;
 use rdx\wikiparser\components\Unknown;
 use rdx\wikiparser\components\Citation;
-use rdx\wikiparser\components\Conversion;
-use rdx\wikiparser\components\Picture;
 
 class Component {
 
-	public $parent; // rdx\wikiparser\Component
 	public $type = '';
-	public $content = array();
-	public $streamingProperty; // rdx\wikiparser\Component
+	public $properties = array();
 
 	/**
 	 *
 	 */
-	public function __construct( $parent = null ) {
-		if ( $parent ) {
-			$this->parent = $parent;
-		}
-	}
-
-	/**
-	 *
-	 */
-	public function add() {
-		return $this->content[] = new $this($this);
-	}
-
-	/**
-	 *
-	 */
-	public function newProperty() {
-		$this->streamingProperty = $this->content[] = new Property($this);
-		$this->streamingProperty->streamType('property');
-		return $this->streamingProperty;
-	}
-
-	/**
-	 *
-	 */
-	public function stream( $property ) {
-		if ( !$this->parent ) {
-			return $this->streamContent($property);
-		}
-
-		if ( !$this->type ) {
-			return $this->streamType($property);
-		}
-
-		list($name, $value) = preg_split('#\s*=\s*#', $property . '=');
-		return $this->streamProperty($name, $value);
-	}
-
-	/**
-	 *
-	 */
-	public function streamContent( $content ) {
-		$this->content[] = $content;
-	}
-
-	/**
-	 *
-	 */
-	public function streamType( $type ) {
+	public function __construct( $properties, $type ) {
 		$this->type = $type;
+		$this->properties = $this->parseProperties($properties);
 	}
 
 	/**
 	 *
 	 */
-	public function streamProperty( $name, $value = '' ) {
-		$name = $this->decode($name);
-		$value = $this->decode($value);
-		$this->streamingProperty->streamContent($name . ':' . $value);
-		// $this->content[$this->contentIndex][] = array($name, $value);
+	protected function parseProperties( $properties ) {
+		$parser = $this->getParser();
+		return $parser->parseProperties($properties);
+	}
+
+	/**
+	 *
+	 */
+	protected function getParser() {
+		return new Parser;
 	}
 
 	/**
@@ -88,6 +42,63 @@ class Component {
 		return strtr(html_entity_decode($value), array(
 			'&times;' => 'x',
 		));
+	}
+
+
+
+	static public $loaders = [];
+
+	/**
+	 *
+	 */
+	static public function load( $text ) {
+		// Remove {{ and }}
+		$text = trim(substr($text, 2, -2));
+
+		// Split type and properties
+		$piped = explode('|', $text, 2);
+		$type = trim($piped[0]);
+		$properties = trim(@$piped[1]);
+
+		// Create type specific Component object
+		$class = static::loader($type);
+		return new $class($properties, $type);
+	}
+
+	/**
+	 *
+	 */
+	static protected function loader( &$type ) {
+		$loaders = static::$loaders;
+		$loaders[] = __CLASS__ . '::_loader';
+
+		foreach ( $loaders as $callback ) {
+			if ( $class = call_user_func_array($callback, array(&$type)) ) {
+				return $class;
+			}
+		}
+
+		return Unknown::class;
+	}
+
+	/**
+	 *
+	 */
+	static public function register( callable $callback ) {
+		static::$loaders[] = $callback;
+	}
+
+	/**
+	 *
+	 */
+	static protected function _loader( &$type ) {
+		switch ( $type ) {
+			case 'cite book':
+			case 'cite web':
+			case 'cite journal':
+				$type = substr($type, 5);
+				return Citation::class;
+		}
 	}
 
 }
