@@ -7,7 +7,7 @@ use rdx\wikiparser\Component;
 class Unknown extends Component {
 
 	public function render() {
-		return '??';
+		echo ' ?? ';
 	}
 
 }

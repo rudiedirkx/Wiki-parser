@@ -13,14 +13,14 @@ abstract class Renderable {
 	 *
 	 */
 	protected function getParser() {
-		return $this->document->getParser();
+		return $this->document->parser;
 	}
 
 	/**
 	 *
 	 */
 	protected function getLinker() {
-		return $this->document->getLinker();
+		return $this->document->linker;
 	}
 
 	/**

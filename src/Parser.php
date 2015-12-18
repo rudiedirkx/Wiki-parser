@@ -2,10 +2,9 @@
 
 namespace rdx\wikiparser;
 
-use rdx\wikiparser\Document;
-use rdx\wikiparser\Component;
-use rdx\wikiparser\Text;
-use rdx\wikiparser\Heading;
+// use rdx\wikiparser\Component;
+// use rdx\wikiparser\Text;
+// use rdx\wikiparser\Heading;
 
 class Parser {
 
@@ -24,8 +23,6 @@ class Parser {
 	 */
 	public function parseDocument( $text = '' ) {
 		$text or $text = $this->text;
-
-		$this->document = $this->createDocument();
 
 		$eol = is_int(strpos($text, "\r\n")) ? '\r\n' : is_int(strpos($text, "\n")) ? '\n' : '\r';
 		$sections = preg_split('#([' . $eol . ']{2,}|=={1,4}[' . $eol . '])#', $text);
@@ -46,15 +43,7 @@ class Parser {
 			}
 		}
 
-		$this->document->load($document);
-		return $this->document;
-	}
-
-	/**
-	 *
-	 */
-	public function createDocument() {
-		return new Document(array(), $this);
+		return $document;
 	}
 
 	/**
@@ -167,31 +156,14 @@ class Parser {
 	 *
 	 */
 	protected function createText( $text ) {
-		if ( preg_match('#^=(=+)#', $text, $match) ) {
-			$section = trim($text, '= ');
-			$heading = new Heading($this->document, $section, 1 + strlen($match[1]));
-			return $heading;
-		}
-
-		return new Text($this->document, $text);
+		return $this->document->createText($text);
 	}
 
 	/**
 	 *
 	 */
 	protected function createComponent( $text ) {
-
-
-
-if ( !$this->document ) {
-	print_r(debug_backtrace());
-	// print_r($this);
-	exit;
-}
-
-
-
-		return Component::load($this->document, $text);
+		return $this->document->createComponent($text);
 	}
 
 }

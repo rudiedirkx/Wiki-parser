@@ -10,7 +10,7 @@ class Citation extends Component {
 	 *
 	 */
 	public function render() {
-		print_r($this);
+		echo '<u title="' . $this->document->parseText($this->properties['title']) . '">&nbsp;*&nbsp;</u> ';
 	}
 
 }

@@ -54,7 +54,13 @@ class Picture extends Component {
 
 class Recipe extends Component {
 	public function render() {
-		print_r($this);
+		$operations = array_keys(array_filter($this->properties, function($value) {
+			return $value === 'yes';
+		}));
+		$operations = array_map(function($operation) {
+			return ' + ' . $operation;
+		}, $operations);
+		echo '<p>&lt;' . $this->properties['item'] . implode($operations) . ' = ' . $this->properties['result'] . '&gt;</p> ';
 	}
 }
 
