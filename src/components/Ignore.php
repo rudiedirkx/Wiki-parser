@@ -4,10 +4,15 @@ namespace rdx\wikiparser\components;
 
 use rdx\wikiparser\Component;
 
-class Unknown extends Component {
+class Ignore extends Component {
 
+	public $ignore = true;
+
+	/**
+	 *
+	 */
 	public function render() {
-		return '??';
+		// Don't do anything
 	}
 
 }

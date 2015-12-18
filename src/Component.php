@@ -2,12 +2,13 @@
 
 namespace rdx\wikiparser;
 
+use rdx\wikiparser\Document;
+use rdx\wikiparser\Renderable;
 use rdx\wikiparser\Parser;
-use rdx\wikiparser\Component;
 use rdx\wikiparser\components\Unknown;
 use rdx\wikiparser\components\Citation;
 
-class Component {
+abstract class Component extends Renderable {
 
 	public $type = '';
 	public $properties = array();
@@ -15,7 +16,8 @@ class Component {
 	/**
 	 *
 	 */
-	public function __construct( $properties, $type ) {
+	public function __construct( Document $document, $properties, $type ) {
+		$this->document = $document;
 		$this->type = $type;
 		$this->properties = $this->parseProperties($properties);
 	}
@@ -26,13 +28,6 @@ class Component {
 	protected function parseProperties( $properties ) {
 		$parser = $this->getParser();
 		return $parser->parseProperties($properties);
-	}
-
-	/**
-	 *
-	 */
-	protected function getParser() {
-		return new Parser;
 	}
 
 	/**
@@ -51,7 +46,7 @@ class Component {
 	/**
 	 *
 	 */
-	static public function load( $text ) {
+	static public function load( Document $document, $text ) {
 		// Remove {{ and }}
 		$text = trim(substr($text, 2, -2));
 
@@ -62,7 +57,7 @@ class Component {
 
 		// Create type specific Component object
 		$class = static::loader($type);
-		return new $class($properties, $type);
+		return new $class($document, $properties, $type);
 	}
 
 	/**

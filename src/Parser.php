@@ -2,17 +2,15 @@
 
 namespace rdx\wikiparser;
 
-// Method 1: [x] create nested arrays for every component
-// Method 2: [x] create Components with content[] with Components
-// Method 3: [.] real stream, find complete component markup, create as whole, create subs in there
-// Method 4: [ ] real stream, create Component after the first property (component type)
-
+use rdx\wikiparser\Document;
 use rdx\wikiparser\Component;
 use rdx\wikiparser\Text;
+use rdx\wikiparser\Heading;
 
 class Parser {
 
-	protected $text = '';
+	public $document; // rdx\wikiparser\Document
+	public $text = '';
 
 	/**
 	 *
@@ -25,6 +23,44 @@ class Parser {
 	 *
 	 */
 	public function parseDocument( $text = '' ) {
+		$text or $text = $this->text;
+
+		$this->document = $this->createDocument();
+
+		$eol = is_int(strpos($text, "\r\n")) ? '\r\n' : is_int(strpos($text, "\n")) ? '\n' : '\r';
+		$sections = preg_split('#([' . $eol . ']{2,}|=={1,4}[' . $eol . '])#', $text);
+
+		$document = array();
+		foreach ( $sections as $section ) {
+			if ( substr($section, 0, 2) == '==' ) {
+				$component = $this->createText($section);
+				$document[] = $component;
+			}
+			else {
+				$components = $this->parseSection($section);
+				$components[0]->sectionStart = true;
+				$components[ count($components) - 1 ]->sectionEnd = true;
+				foreach ( $components as $component ) {
+					$document[] = $component;
+				}
+			}
+		}
+
+		$this->document->load($document);
+		return $this->document;
+	}
+
+	/**
+	 *
+	 */
+	public function createDocument() {
+		return new Document(array(), $this);
+	}
+
+	/**
+	 *
+	 */
+	public function parseSection( $text = '' ) {
 		$text or $text = $this->text;
 
 		$components = array();
@@ -131,14 +167,31 @@ class Parser {
 	 *
 	 */
 	protected function createText( $text ) {
-		return new Text($text);
+		if ( preg_match('#^=(=+)#', $text, $match) ) {
+			$section = trim($text, '= ');
+			$heading = new Heading($this->document, $section, 1 + strlen($match[1]));
+			return $heading;
+		}
+
+		return new Text($this->document, $text);
 	}
 
 	/**
 	 *
 	 */
 	protected function createComponent( $text ) {
-		return Component::load($text);
+
+
+
+if ( !$this->document ) {
+	print_r(debug_backtrace());
+	// print_r($this);
+	exit;
+}
+
+
+
+		return Component::load($this->document, $text);
 	}
 
 }
