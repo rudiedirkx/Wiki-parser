@@ -33,6 +33,10 @@ With a second sentence, which is not special?
 
 And another with [[complex words]].
 
+==Inline components==
+
+{{pic|22|Beardling}} {{pic|22|Beardling}} {{pic|22|Beardling}}
+
 ==Random table!==
 
 {| class="wikitable"

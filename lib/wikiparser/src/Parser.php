@@ -11,6 +11,8 @@ class ParsingException extends Exception {}
 
 class Parser {
 
+	const TOKEN_PARAGRAPH = '---PARAGRAPH|||';
+
 	public $document; // rdx\wikiparser\Document
 	public $text = '';
 
@@ -34,16 +36,6 @@ class Parser {
 
 		$eol = is_int(strpos($text, "\r\n")) ? '\r\n' : is_int(strpos($text, "\n")) ? '\n' : '\r';
 
-		$literalDelimiters = array_map('preg_quote', ['{|', '|}', '{{', '}}', '[[', ']]']);
-		$regexDelimiters = ['(?<=[\r\n])\*\s*', '={2,}', '(?:' . $eol . '){2,}'];
-		$delimiters = array_merge($literalDelimiters, $regexDelimiters);
-
-		$regex = '/(' . implode('|', $delimiters) . ')/';
-		$parts = preg_split($regex, $text, -1, PREG_SPLIT_DELIM_CAPTURE);
-		$parts = array_filter($parts, function($part) {
-			return strlen($part);
-		});
-
 		$delims = [
 			'{|' => 'table',
 			'|}' => 'table',
@@ -53,15 +45,31 @@ class Parser {
 			']]' => 'element',
 		];
 
+		$literalDelimiters = array_map('preg_quote', array_keys($delims));
+		$regexDelimiters = ['(?<=[\r\n])\*\s*', '={2,}', '(?:' . $eol . '){2,}'];
+		$delimiters = array_merge($literalDelimiters, $regexDelimiters);
+
+		$regex = '/(' . implode('|', $delimiters) . ')/';
+		$parts = preg_split($regex, $text, -1, PREG_SPLIT_DELIM_CAPTURE);
+		$parts = array_filter($parts, function($part) {
+			return strlen($part);
+		});
+		$parts = array_values($parts);
+
+		// class Text {}
+		// class Paragraph {}
+
 		$stack = [];
 		$document = [''];
-		foreach ( $parts as $part ) {
+		for ( $i = 0; $i < count($parts); $i++ ) {
+			$part = $parts[$i];
+
 			$type = @$delims[$part] ?: '';
 			$curType = $stack ? $stack[ count($stack) - 1 ] : '';
 
 			// Paragraph match if only newlines, can't trim, because spaces are NOT special
 			if ( preg_match('#^[\r\n]+$#', $part) ) {
-				$part = '---PARAGRAPH|||';
+				$part = self::TOKEN_PARAGRAPH;
 			}
 
 			switch ( trim($part) ) {
@@ -96,7 +104,7 @@ class Parser {
 					break;
 
 				// New paragraph
-				case '---PARAGRAPH|||':
+				case self::TOKEN_PARAGRAPH:
 					$document[] = '';
 // echo "new paragraph\n";
 					break;
@@ -140,6 +148,10 @@ class Parser {
 					break;
 			}
 		}
+
+		// $document = array_map('trim', $document);
+		// $document = array_filter($document, 'strlen');
+		// $document = array_values($document);
 
 print_r($document);
 

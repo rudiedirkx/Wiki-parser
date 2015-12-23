@@ -12,7 +12,7 @@ if ( empty($_GET['wiki']) || !file_exists($file = __DIR__ . '/' . basename($_GET
 	}, glob(__DIR__ . '/*.wiki'))) . '</ul>');
 }
 
-header('Content-type: text/text; charset=utf-8');
+header('Content-type: text/plain; charset=utf-8');
 
 $wiki = file_get_contents($file);
 
