@@ -1,0 +1,368 @@
+'''Food''' can be obtained by foraging, [[Trap|trapping]], [[farming]] or hunting [[Animals]] and [[Monsters]]. Food refills [[Hunger]] and some [[Health]], depending on the quality of the food eaten. Almost all raw food can be [[Cooking|Cooked]] on a [[Campfire]] to increase the amount of Health/Hunger they restore. In addition to all of this, a [[Crock Pot]] may be used for increase the benefits from eating.
+
+Notably, [[Meats]] can be used as bait, for the recruitment of [[Pig]]s, as an offering to the [[Pig King]] for [[Gold Nuggets|gold nuggets.]] As a renewable way to gain [[eggs]] by giving meats to [[birds]] housed in [[Bird Cage]]s and are a requirement to construct the [[Meat Effigy]]. [[Bunnymen]] will also become hostile if meat is in the player's inventory. Some Food, such as [[Monster Meat]] or [[Durian]]s, can damage health instead of restoring it.
+
+Being the most important items in the game (and part of the game's namesake, to not starve) food is mostly very valuable in any world, however, given the layouts of different maps and what spawns in them, foods can vary from abundant to dangerously short, also, food can be affected by [[seasons]], which encourages the player to probably take advantages of seasonal diets and also take advantages of their shelf life.
+
+: ''For Information on Food values and Priority, see the [[Crock Pot]] page.''
+
+== Categories ==
+There are several Food categories:
+
+* [[Meats]] — [[File:Meats General.png|link=Meats]]
+* [[Vegetables]] — [[File:Vegetables General.png|link=Vegetables]]
+* [[Fruits]] — [[File:Fruits Crock Pot.png|link=Fruits]]
+* [[Crock Pot]] meals — [[File:Crock Pot Foods.png|link=Crock Pot]]
+* Other —[[File:Other Food.png]]
+
+== Food Types ==
+{| class="wikitable sortable" style="text-align:center; font-weight: bold; width: 100%"
+|-
+! scope="col" style="text-align:center;" width="0px" | Food<br />
+! scope="col" style="text-align:center;" | Name<br />
+! scope="col" style="text-align:center;" | DLC<br />
+! scope="col" style="text-align:center;" width="0px" | [[File:HealthMeter.png|28px|Health]]<br />
+! scope="col" style="text-align:center;" width="0px" | [[File:HungerMeter.png|28px|Hunger]]<br />
+! scope="col" style="text-align:center;" width="0px" | [[File:SanityMeter.png|28px|Sanity]]<br />
+! scope="col" style="text-align:center;" width="0px" | [[File:Rot.png|28px|Perish time (days)]]<br />
+! scope="col" style="text-align:center;" width="0px" | [[Crock Pot#Food values|Food value]]<br />
+! scope="col" style="text-align:center;" width="0px" | [[File:Crock Pot.png|28px|Crock Pot ingredient]]<br />
+|-
+|[[File:Batilisk Wing.png|48px|link=Batilisk Wing]]|| align="left" |'''[[Batilisk Wing]]'''|||| +3|| +12.5|| -10||6||Not valid||No
+|-
+|[[File:Cooked Batilisk Wing.png|48px|link=Cooked Batilisk Wing]]|| align="left" |'''[[Cooked Batilisk Wing]]'''|||| +8|| +18.75||0||10||Not valid||No
+|-
+|[[File:Berries.png|48px|link=Berries]]|| align="left" |'''[[Berries]]'''|||| +1|| +9.375|| 0||6||[[File:Fruit.png|32px|link=Fruits]] &times;0.5||Yes
+|-
+|[[File:Roasted Berries.png|48px|link=Roasted Berries]]|| align="left" |'''[[Roasted Berries]]'''|||| +1|| +12.5|| 0||3||[[File:Fruit.png|32px|link=Fruits]] &times;0.5||Yes
+|-
+|[[File:Roasted Birchnut.png|48px|link=Roasted Birchnut]]|| align="left" |'''[[Roasted Birchnut]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +1|| +9.375|| 0||6||&times;1.0||Yes
+|-
+|[[File:Blubber.png|48px|link=Blubber]]|| align="left" |'''[[Blubber]]'''||[[File:Shipwrecked icon.png|24px|link=Shipwrecked]]|| 10|| 10|| 0||Never||||No
+|-
+|[[File:Brainy Matter.png|48px|link=Brainy Matter]]|| align="left" |'''[[Brainy Matter]]'''||[[File:Shipwrecked icon.png|24px|link=Shipwrecked]]|| -10|| 10|| 50||1||||No
+|-
+|[[File:Butter.png|48px|link=Butter]]|| align="left" |'''[[Butter]]'''|||| +40|| +25|| 0||40||[[File:Dairy product.png|32px|link=Dairy product]] &times;1.0 [[File:Fat.png|32px|link=Fat]] &times;1.0||Yes
+|-
+|[[File:Butterfly Wings.png|48px|link=Butterfly Wings]]|| align="left" |'''[[Butterfly Wings]]'''|||| +8|| +9.375|| 0||6||&times;1.0||Yes
+|-
+|[[File:Cactus Flesh.png|48px|link=Cactus Flesh]]|| align="left" |'''[[Cactus Flesh]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| -3|| +12.5|| -5||10|| [[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Cooked Cactus Flesh.png|48px|link=Cooked Cactus Flesh]]|| align="left" |'''[[Cooked Cactus Flesh]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +1|| +12.5|| +15||10|| [[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Cactus Flower.png|48px|link=Cactus Flower]]|| align="left" |'''[[Cactus Flower]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +8|| +12.5|| +5||10|| [[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Carrot.png|48px|link=Carrot]]|| align="left" |'''[[Carrot]]'''|||| +1
+| +12.5|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Roasted Carrot.png|48px|link=Roasted Carrot]]|| align="left" |'''[[Roasted Carrot]]'''|||| +3|| +12.5|| 0||6||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Cave Banana.png|48px|link=Banana]]|| align="left" |'''[[Banana]]'''|||| +1|| +12.5||0||10|| [[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Cooked Cave Banana.png|48px|link=Cooked Banana]]|| align="left" |'''[[Cooked Banana]]'''|||| +3|| +12.5||0||6|| [[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Coconut.png|48px|link=Coconut]]|| align="left" |'''[[Coconut]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 0|| 0|| 0||20||[[File:Fruit.png|32px|link=Fruits]] &times;1.0 [[File:Fat.png|32px|link=Fat]] &times;1.0||Yes
+|-
+|[[File:Cooked Coconut.png|48px|link=Coconut]]|| align="left" |'''[[Coconut|Roasted Coconut]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 9.375|| 0||10||[[File:Fruit.png|32px|link=Fruits]] &times;1.0 [[File:Fat.png|32px|link=Fat]] &times;1.0||Yes
+|-
+|[[File:Coffee Beans.png|48px|link=Coffee Beans]]|| align="left" |'''[[Coffee Beans]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 0|| 9.375|| 0||6||[[File:Fruit.png|32px|link=Fruits]] &times;0.5||Yes
+|-
+|[[File:Cooked Coffee Beans.png|48px|link=Coffee Beans]]|| align="left" |'''[[Coffee Beans|Roasted Coffee Beans]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 0|| 9.375|| -5||15||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Corn.png|48px|link=Corn]]|| align="left" |'''[[Corn]]'''|||| +3|| +25|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Popcorn.png|48px|link=Popcorn]]|| align="left" |'''[[Popcorn]]'''|||| +3|| +12.5|| 0||15||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Dead Dogfish.png|48px|link=Dogfish]]|| align="left" |'''[[Dogfish|Dead Dogfish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 25|| 0||6||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Dead Jellyfish.png|48px|link=Dead Jellyfish]]|| align="left" |'''[[Dead Jellyfish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]||10||10||0||6||[[File:Fishes.png|32px|link=Fishes]] &times;1.0 [[File:Monster Meat ava.png|32px|link=Monster Food]] &times;1.0||No
+|-
+|[[File:Cooked Jellyfish.png|48px|link=Dead Jellyfish]]|| align="left" |'''[[Dead Jellyfish|Cooked Jellyfish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]||10||18.75||0||10||[[File:Fishes.png|32px|link=Fishes]] &times;1.0 [[File:Monster Meat ava.png|32px|link=Monster Food]] &times;1.0||Yes
+|-
+|[[File:Dried Jellyfish.png|48px|link=Dried Jellyfish]]|| align="left" |'''[[Dried Jellyfish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]||10||18.75||0||20||[[File:Fishes.png|32px|link=Fishes]] &times;1.0 [[File:Monster Meat ava.png|32px|link=Monster Food]] &times;1.0||Yes
+|-
+|[[File:Dead Swordfish.png|48px|link=Swordfish]]|| align="left" |'''[[Swordfish|Dead Swordfish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 25|| 0||6||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||No
+|-
+|[[File:Dead Wobster.png|48px|link=Wobster]]|| align="left" |'''[[Wobster|Dead Wobster]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||3||[[File:Fishes.png|32px|link=Fishes]] &times;2.0||No
+|-
+|[[File:Cooked Wobster.png|48px|link=Wobster]]|| align="left" |'''[[Wobster|Delicious Wobster]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||6||[[File:Fishes.png|32px|link=Fishes]] &times;2.0||No
+|-
+|[[File:Deerclops Eyeball.png|48px|link=Deerclops Eyeball]]|| align="left" |'''[[Deerclops Eyeball]]'''|||| +60|| +75|| -15||Never||Not valid||No
+|-
+|[[File:Rhino Horn.png|48px|link=Guardian's Horn]]|| align="left" |'''[[Guardian's Horn]]'''|||| +60|| +75|| -15||Never||Not valid||No
+|-
+|[[File:Ice.png|48px|link=Hail]]|| align="left" |'''[[Hail]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]||0.5||2.34375||0||3||[[File:Frozenfood.png|32px|link=Frozen]] &times;1.0||Yes
+|-
+|[[File:Dragon Fruit.png|48px|link=Dragon Fruit]]|| align="left" |'''[[Dragon Fruit]]'''|||| +3|| +9.375|| 0||6||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Prepared Dragon Fruit.png|48px|link=Prepared Dragon Fruit]]|| align="left" |'''[[Prepared Dragon Fruit]]'''|||| +20|| +12.5|| 0||3||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Drumstick.png|48px|link=Drumstick]]|| align="left" |'''[[Drumstick]]'''|||| 0|| +12.5|| -10||6||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Fried Drumstick.png|48px|link=Fried Drumstick]]|| align="left" |'''[[Fried Drumstick]]'''|||| +1|| +12.5|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Durian.png|48px|link=Durian]]|| align="left" |'''[[Durian]]'''|||| -3|| +25|| -5||10||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Extra Smelly Durian.png|48px|link=Extra Smelly Durian]]|| align="left" |'''[[Extra Smelly Durian]]'''|||| 0|| +25|| -5||6||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Eel.png|48px|link=Eel]]|| align="left" |'''[[Eel]]'''|||| +3|| +10|| 0||6||[[File:Fishes.png|32px|link=Fishes]] &times;0.5|| Yes
+|-
+|[[File:Cooked Eel.png|48px|link=Eel]]|| align="left" |'''[[Eel|Cooked Eel]]'''|||| +8|| +13|| 0||10||[[File:Fishes.png|32px|link=Fishes]] &times;0.5|| Yes
+|-
+|[[File:Electric Milk.png|48px|link=Electric Milk]]|| align="left" |'''[[Electric Milk]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +3|| +12.5|| +5||6|| [[File:Dairy product.png|32px|link=Dairy product]] &times;1.0||Yes
+|-
+|[[File:Egg.png|48px|link=Egg]]|| align="left" |'''[[Egg]]'''|||| 0|| +9.375|| 0||10||[[File:Eggs.png|32px|link=Eggs]] &times;1.0||Yes
+|-
+|[[File:Cooked Egg.png|48px|link=Cooked Egg]]|| align="left" |'''[[Cooked Egg]]'''|||| 0|| +12.5|| 0||6||[[File:Eggs.png|32px|link=Eggs]] &times;1.0||Yes
+|-
+|[[File:Eggplant.png|48px|link=Eggplant]]|| align="left" |'''[[Eggplant]]'''|||| +8|| +25|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Braised Eggplant.png|48px|link=Braised Eggplant]]|| align="left" |'''[[Braised Eggplant]]'''|||| +20|| +25|| 0||6||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Fish.png|48px|link=Fish]]|| align="left" |'''[[Fish]]'''|||| +1|| +12.5|| 0||3||[[File:Fishes.png|32px|link=Fishes]] &times;0.5||Yes
+|-
+|[[File:Cooked Fish.png|48px|link=Cooked Fish]]|| align="left" |'''[[Cooked Fish]]'''|||| +1|| +12.5|| 0||6||[[File:Fishes.png|32px|link=Fishes]] &times;0.5||Yes
+|-
+|[[File:Fish Morsel.png|48px|link=Fish Morsel]]|| align="left" |'''[[Fish Morsel]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||3||[[File:Fishes.png|32px|link=Fishes]] &times;0.5||Yes
+|-
+|[[File:Cooked Fish Morsel.png|48px|link=Fish Morsel]]|| align="left" |'''[[Fish Morsel|Cooked Fish Morsel]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||6||[[File:Fishes.png|32px|link=Fishes]] &times;0.5||Yes
+|-
+|[[File:Foliage.png|48px|link=Foliage]]|| align="left" |'''[[Foliage]]'''|||| +1||0||0||6||Not valid||No
+|-
+|[[File:Frog Legs.png|48px|link=Frog Legs]]|| align="left" |'''[[Frog Legs]]'''|||| 0|| +12.5|| -10||6||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Cooked Frog Legs.png|48px|link=Cooked Frog Legs]]|| align="left" |'''[[Cooked Frog Legs]]'''|||| +1|| +12.5|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Gears.png|48px|link=Gears]]|| align="left" |'''[[Gears]]''' ([[File:WX-78 portrait.png|24px|link=WX-78]] only)|||| +60|| +75|| +50||Never||Not valid||No
+|-
+|[[File:Glommer's Goop.png|48px|link=Glommer's Goop]]|| align="left" |'''[[Glommer's Goop]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +40|| +9.375|| -50||Never||Not valid||No
+|-
+|[[File:Glow Berry.png|48px|link=Glow Berry]]|| align="left" |'''[[Glow Berry]]'''|||| +10|| +25|| -15||10||Not valid||No
+|-
+|[[File:Lesser Glow Berry.png|48px|link=Lesser Glow Berry]]|| align="left" |'''[[Lesser Glow Berry]]'''|||| +3|| +12.5|| -10||10||Not valid||No
+|-
+|[[File:Honey.png|48px|link=Honey]]|| align="left" |'''[[Honey]]'''|||| +3|| +9.375|| 0||40||[[File:Sweetener.png|32px|link=Sweetener]] &times;1.0||Yes
+|-
+|[[File:Ice.png|48px|link=Ice]]|| align="left" |'''[[Ice]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +0.5|| +2.3||0||3||[[File:Frozenfood.png|32px|link=Frozen]] &times;1.0||Yes
+|-
+|[[File:Koalefant Trunk.png|48px|link=Koalefant Trunk]]|| align="left" |'''[[Koalefant Trunk]]'''|||| +30|| +37.5|| 0||6||Not valid||No
+|-
+|[[File:Winter Koalefant Trunk.png|48px|link=Winter Koalefant Trunk]]|| align="left" |'''[[Winter Koalefant Trunk]]'''|||| +30|| +37.5|| 0||6||Not valid||No
+|-
+|[[File:Koalefant Trunk Steak.png|48px|link=Koalefant Trunk Steak]]|| align="left" |'''[[Koalefant Trunk Steak]]'''|||| +40|| +75|| 0||15||Not valid||No
+|-
+|[[File:Leafy Meat.png|48px|link=Leafy Meat]]|| align="left" |'''[[Leafy Meat]]'''|||| 0|| +12.5|| -10||6||Not valid||No
+|-
+|[[File:Cooked Leafy Meat.png|48px|link=Cooked Leafy Meat]]|| align="left" |'''[[Cooked Leafy Meat]]'''|||| +1|| +18.75||0||10||Not valid||No
+|-
+|[[File:Lichen.png|48px|link=Lichen]]|| align="left" |'''[[Lichen]]'''|||| +3|| +12|| -5||2||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5|| Yes
+|-
+|[[File:Light Bulb.png|48px|link=Light Bulb]]|| align="left" |'''[[Light Bulb]]'''|||| +1||0||0||6||Not valid||No
+|-
+|[[File:Limpets.png|48px|link=Limpets]]|| align="left" |'''[[Limpets]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 0|| 12.5|| -10||6||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Cooked Limpets.png|48px|link=Limpets]]|| align="left" |'''[[Limpets#Cooked Limpets|Cooked Limpets]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Mandrake.png|48px|link=Mandrake]]|| align="left" |'''[[Mandrake]]'''|||| +60|| +75|| 0||Never||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Cooked Mandrake.png|48px|link=Cooked Mandrake]]|| align="left" |'''[[Cooked Mandrake]]'''|||| +100|| +150|| 0||Never||Not valid||No
+|-
+|[[File:Meat.png|48px|link=Meat]]|| align="left" |'''[[Meat]]'''|||| +1|| +25|| -10||6||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Cooked Meat.png|48px|link=Cooked Meat]]|| align="left" |'''[[Cooked Meat]]'''|||| +3|| +25|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Jerky.png|48px|link=Jerky]]|| align="left" |'''[[Jerky]]'''|||| +20|| +25|| +15||20||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Monster Meat.png|48px|link=Monster Meat]]|| align="left" |'''[[Monster Meat]]'''|||| -20|| +18.75|| -15||6||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Cooked Monster Meat.png|48px|link=Cooked Monster Meat]]|| align="left" |'''[[Cooked Monster Meat]]'''|||| -3|| +18.75|| -10||15||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Monster Jerky.png|48px|link=Monster Jerky]]|| align="left" |'''[[Monster Jerky]]'''|||| -3|| +18.75|| -5||20||[[File:Meats.png|32px|link=Meats]] &times;1.0||Yes
+|-
+|[[File:Morsel.png|48px|link=Morsel]]|| align="left" |'''[[Morsel]]'''|||| 0|| +12.5|| -10||6||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Cooked Morsel.png|48px|link=Cooked Morsel]]|| align="left" |'''[[Cooked Morsel]]'''|||| +1|| +12.5|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Small Jerky.png|48px|link=Small Jerky]]|| align="left" |'''[[Small Jerky]]'''|||| +8|| +12.5|| +10||20||[[File:Meats.png|32px|link=Meats]] &times;0.5||Yes
+|-
+|[[File:Mussel.png|48px|link=Mussel]]|| align="left" |'''[[Mussel]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 0|| 12.5|| -15||3||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Cooked Mussel.png|48px|link=Mussel]]|| align="left" |'''[[Mussel|Cooked Mussel]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||10||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Blue Cap.png|48px|link=Blue Cap]]|| align="left" |'''[[Blue Cap]]'''|||| +20|| +12.5|| -15||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Cooked Blue Cap.png|48px|link=Cooked Blue Cap]]|| align="left" |'''[[Cooked Blue Cap]]'''|||| -3|| 0|| +10|| 10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Green Cap.png|48px|link=Green Cap]]|| align="left" |'''[[Green Cap]]'''|||| 0|| +12.5|| -50||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Cooked Green Cap.png|48px|link=Cooked Green Cap]]|| align="left" |'''[[Cooked Green Cap]]'''|||| -1|| 0|| +15||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Red Cap.png|48px|link=Red Cap]]|| align="left" |'''[[Red Cap]]'''|||| -20|| +12.5|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Cooked Red Cap.png|48px|link=Cooked Red Cap]]|| align="left" |'''[[Cooked Red Cap]]'''|||| +1|| 0|| -10||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;0.5||Yes
+|-
+|[[File:Petals.png|48px|link=Petals]]|| align="left" |'''[[Petals]]'''|||| +1|| 0|| 0||6||Not valid||No
+|-
+|[[File:Dark Petals.png|48px|link=Dark Petals]]|| align="left" |'''[[Dark Petals]]'''|||| 0|| 0|| -5||6||Not valid||No
+|-
+|[[File:Pomegranate.png|48px|link=Pomegranate]]|| align="left" |'''[[Pomegranate]]'''|||| +3|| +9.375|| 0||6||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Sliced Pomegranate.png|48px|link=Sliced Pomegranate]]|| align="left" |'''[[Sliced Pomegranate]]'''|||| +20|| +12.5|| 0||3||[[File:Fruit.png|32px|link=Fruits]] &times;1.0||Yes
+|-
+|[[File:Pumpkin.png|48px|link=Pumpkin]]|| align="left" |'''[[Pumpkin]]'''|||| +3|| +37.5|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Hot Pumpkin.png|48px|link=Hot Pumpkin]]|| align="left" |'''[[Hot Pumpkin]]'''|||| +8|| +37.5|| 0||6||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Raw Fish.png|48px|link=Raw Fish]]|| align="left" |'''[[Raw Fish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 25|| 0||3||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Fish Steak.png|48px|link=Fish Steak]]|| align="left" |'''[[Fish Steak]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 20|| 25|| 0||6||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Rot.png|48px|link=Rot]]|| align="left" |'''[[Rot]]'''|||| -1|| -10|| 0||Never||Not valid||No
+|-
+|[[File:Rotten Egg.png|48px|link=Rotten Egg]]|| align="left" |'''[[Rotten Egg]]'''|||| -1|| -10|| 0||Never||Not valid||No
+|-
+|[[File:Seaweed.png|48px|link=Seaweed]]|| align="left" |'''[[Seaweed]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 9.375|| -10||6||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Roasted Seaweed.png|48px|link=Seaweed]]|| align="left" |'''[[Seaweed|Roasted Seaweed]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 3|| 12.5|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Dried Seaweed.png|48px|link=Dried Seaweed]]|| align="left" |'''[[Dried Seaweed]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 3|| 12.5|| 0||20||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Seeds.png|48px|link=Seeds]]|| align="left" |'''[[Seeds]]'''|||| 0|| 4.6875|| 0||40||Not valid||No
+|-
+|[[File:Toasted Seeds.png|48px|link=Toasted Seeds]]|| align="left" |'''[[Toasted Seeds]]'''|||| 1|| 4.6875|| 0||10||Not valid||No
+|-
+|[[File:Crops.png|48px|link=Crop Seeds]]|| align="left" |'''[[Crop Seeds]]'''|||| +0.5|| +9.375||0||40||Not valid||No
+|-
+|[[File:Shark Fin.png|48px|link=Shark Fin]]|| align="left" |'''[[Shark Fin]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 20|| 25|| -15||6||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Sweet Potato.png|48px|link=Sweet Potato]]|| align="left" |'''[[Sweet Potato]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||10||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Cooked Sweet Potato.png|48px|link=Sweet Potato]]|| align="left" |'''[[Sweet Potato|Cooked Sweet Potato]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 3|| 12.5|| 0||6||[[File:Vegetables.png|32px|link=Vegetables]] &times;1.0||Yes
+|-
+|[[File:Tallbird Egg.png|48px|link=Tallbird Egg]]|| align="left" |'''[[Tallbird Egg]]'''|||| +3|| +25|| 0||Never||[[File:Eggs.png|32px|link=Eggs]] &times;4.0||Yes
+|-
+|[[File:Hatching Tallbird Egg.png|48px|link=Hatching Tallbird Egg]]|| align="left" |'''[[Hatching Tallbird Egg]]'''|||| +5|| +23||0||Never||Not valid||No
+|-
+|[[File:Fried Tallbird Egg.png|48px|link=Fried Tallbird Egg]]|| align="left" |'''[[Fried Tallbird Egg]]'''|||| 0|| +37.5|| 0||6||[[File:Eggs.png|32px|link=Eggs]] &times;4.0||Yes
+|-
+|[[File:Tropical Fish.png|48px|link=Tropical Fish]]|| align="left" |'''[[Tropical Fish]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| 1|| 12.5|| 0||3||[[File:Meats.png|32px|link=Meats]] &times;0.5 [[File:Fishes.png|32px|link=Fishes]] &times;1.0||Yes
+|-
+|[[File:Watermelon.png|48px|link=Watermelon]]|| align="left" |'''[[Watermelon]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]||3|| 12.5|| 5||8|| [[File:Fruit.png|32px|link=Fruit]] &times;1.0||Yes
+|-
+|[[File:Grilled Watermelon.png|48px|link=Grilled Watermelon]]|| align="left" |'''[[Grilled Watermelon]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +1|| +12.5|| +7.5||8|| [[File:Fruit.png|32px|link=Fruit]] &times;1.0 ||Yes
+|-
+|[[File:Bacon and Eggs.png|48px|link=Bacon and Eggs]]|| align="left" |'''[[Bacon and Eggs]]'''|||| +20|| +75|| +5||20||Not valid||No
+|-
+|[[File:Banana_Pop.png|48px|link=Banana Pop]]|| align="left" |'''[[Banana Pop]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +20|| +12.5|| +33||10||Not valid||No
+|-
+|[[File:Bisque.png|48px|link=Bisque]]|| align="left" |'''[[Bisque]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +60|| +18.75|| +5||20||Not valid||No
+|-
+|[[File:Butter Muffin.png|48px|link=Butter Muffin]]|| align="left" |'''[[Butter Muffin]]'''|||| +20|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:California Roll.png|48px|link=California Roll]]|| align="left" |'''[[California Roll]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +20|| +25|| +10||10||Not valid||No
+|-
+|[[File:Coffee.png|48px|link=Coffee]]|| align="left" |'''[[Coffee]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +3|| +9.375|| -5||10||Not valid||No
+|-
+|[[File:Dragonpie.png|48px|link=Dragonpie]]|| align="left" |'''[[Dragonpie]]'''|||| +40|| +75|| +5||15||Not valid||No
+|-
+|[[File:Fish Tacos.png|48px|link=Fish Tacos]]|| align="left" |'''[[Fish Tacos]]'''|||| +20|| +37.5|| +5||6||Not valid||No
+|-
+|[[File:Fishsticks.png|48px|link=Fishsticks]]|| align="left" |'''[[Fishsticks]]'''|||| +40|| +37.5|| +5||10||Not valid||No
+|-
+|[[File:Fist Full of Jam.png|48px|link=Fist Full of Jam]]|| align="left" |'''[[Fist Full of Jam]]'''|||| +3|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:Flower Salad.png|48px|link=Flower Salad]]|| align="left" |'''[[Flower Salad]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +40|| +12.5|| +5||6||Not valid||No
+|-
+|[[File:Froggle Bunwich.png|48px|link=Froggle Bunwich]]|| align="left" |'''[[Froggle Bunwich]]'''|||| +20|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:Fruit Medley.png|48px|link=Fruit Medley]]|| align="left" |'''[[Fruit Medley]]'''|||| +20|| +25|| +5||6||Not valid||No
+|-
+|[[File:Guacamole.png|48px|link=Guacamole]]|| align="left" |'''[[Guacamole]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +20|| +37.5|| 0||10||Not valid||No
+|-
+|[[File:Honey Ham.png|48px|link=Honey Ham]]|| align="left" |'''[[Honey Ham]]'''|||| +30|| +75|| +5||15||Not valid||No
+|-
+|[[File:Honey Nuggets.png|48px|link=Honey Nuggets]]|| align="left" |'''[[Honey Nuggets]]'''|||| +20|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:Ice Cream.png|48px|link=Ice Cream]]|| align="left" |'''[[Ice Cream]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| 0|| +25|| +50||3||Not valid||No
+|-
+|[[File:Jelly-O_Pop.png|48px|link=Jelly-O Pop]]|| align="left" |'''[[Jelly-O Pop]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +20|| +12.5||0||10||Not valid||No
+|-
+|[[File:Kabobs.png|48px|link=Kabobs]]|| align="left" |'''[[Kabobs]]'''|||| +3|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:Lobster Bisque.png|48px|link=Lobster Bisque]]|| align="left" |'''[[Lobster Bisque]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +60|| +25|| +10||10||Not valid||No
+|-
+|[[File:Lobster Dinner.png|48px|link=Lobster Dinner]]|| align="left" |'''[[Lobster Dinner]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +60|| +25|| +10||10||Not valid||No
+|-
+|[[File:Mandrake Soup.png|48px|link=Mandrake Soup]]|| align="left" |'''[[Mandrake Soup]]'''|||| +100|| +150|| +5||6||Not valid||No
+|-
+|[[File:Meatballs.png|48px|link=Meatballs]]|| align="left" |'''[[Meatballs]]'''|||| +3|| +62.5|| +5||10||Not valid||No
+|-
+|[[File:Meaty Stew.png|48px|link=Meaty Stew]]|| align="left" |'''[[Meaty Stew]]'''|||| +12|| +150|| +5||10||Not valid||No
+|-
+|[[File:Melonsicle.png|48px|link=Melonsicle]]|| align="left" |'''[[Melonsicle]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +3|| +12.5|| +20||3||Not valid||No
+|-
+|[[File:Monster Lasagna.png|48px|link=Monster Lasagna]]|| align="left" |'''[[Monster Lasagna]]'''|||| -20|| +37.5|| -20||10||Not valid||No
+|-
+|[[File:Pierogi.png|48px|link=Pierogi]]|| align="left" |'''[[Pierogi]]'''|||| +40|| +37.5|| +5||20||Not valid||No
+|-
+|[[File:Powdercake.png|48px|link=Powdercake]]|| align="left" |'''[[Powdercake]]'''|||| -3||0||0||18750||Not valid||No
+|-
+|[[File:Pumpkin Cookies.png|48px|link=Powdercake]]|| align="left" |'''[[Pumpkin Cookies]]'''||||0|| +37.5|| +15||10||Not valid||No
+|-
+|[[File:Ratatouille.png|48px|link=Ratatouille]]|| align="left" |'''[[Ratatouille]]'''|||| +3|| +25|| +5||15||Not valid||No
+|-
+|[[File:Seafood Gumbo.png|48px|link=Seafood Gumbo]]|| align="left" |'''[[Seafood Gumbo]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +40|| +37.5|| +20||20||Not valid||No
+|-
+|[[File:Shark Fin Soup.png|48px|link=Shark Fin Soup]]|| align="left" |'''[[Shark Fin Soup]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +40|| +12.5|| -10||10||Not valid||No
+|-
+|[[File:Spicy Chili.png|48px|link=Spicy Chili]]|| align="left" |'''[[Spicy Chili]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +20|| +37.5|| 0||9||Not valid||No
+|-
+|[[File:Stuffed Eggplant.png|48px|link=tuffed Eggplant]]|| align="left" |'''[[Stuffed Eggplant]]'''|||| +3|| +37.5|| +5||15||Not valid||No
+|-
+|[[File:Surf 'n' Turf.png|48px|link=Surf 'n' Turf]]|| align="left" |'''[[Surf 'n' Turf]]'''||[[File:Shipwrecked icon.png|24px|linkShipwrecked]]|| +60|| +37.5|| +33||10||Not valid||No
+|-
+|[[File:Taffy.png|48px|link=Taffy]]|| align="left" |'''[[Taffy]]'''|||| -3|| +25|| +15||15||Not valid||No
+|-
+|[[File:Trail Mix.png|48px|link=Trail Mix]]|| align="left" |'''[[Trail Mix]]'''||[[File:Reign of Giants icon.png|24px|link=Reign of Giants]]|| +30|| +12.5|| +5||15||Not valid||No
+|-
+|[[File:Turkey Dinner.png|48px|link=Turkey Dinner]]|| align="left" |'''[[Turkey Dinner]]'''|||| +20|| +75|| +5||6||Not valid||No
+|-
+|[[File:Unagi.png|48px|link=Unagi]]|| align="left" |[[Unagi]]|||| +20|| +18.8|| +5||10||Not valid||No
+|-
+|[[File:Waffles.png|48px|link=Waffles]]|| align="left" |'''[[Waffles]]'''|||| +60|| +37.5|| +5||10||Not valid||No
+|-
+|[[File:Wet Goop.png|48px|link=Wet Goop]]|| align="left" |'''[[Wet Goop]]'''||||0||0||0||6||Not valid||No
+|}
+: '''[[File:HealthMeter.png|28px]] [[Health]] [[File:HungerMeter.png|28px]] [[Hunger]] [[File:SanityMeter.png|28px]] [[Sanity]] [[File:Rot.png|28px]] [[Food#Spoilage|Perish Time]] (days) [[File:Crock Pot.png|28px]] Crock Pot ingredient'''
+
+== Perish Times ==
+Most Food has a Perish Time, eventually turning into [[Rot]].
+
+{| class="wikitable"
+!'''Stage'''
+!'''Effect'''
+|-
+| style="text-align:center;color:#476E1E;" |'''Green (50-100% Fresh)'''
+|Restores the full amount of [[File:HungerMeter.png|24px|link=Hunger]], [[File:HealthMeter.png|24px|link=Health]] and [[File:SanityMeter.png|24px|link=Sanity]] for a given food
+|-
+| style="text-align:center;color:#CB8A18" |'''Yellow (21-49% Stale)'''
+|Restores 2/3 of [[File:HungerMeter.png|24px|link=Hunger]], 1/3 of [[File:HealthMeter.png|24px|link=Health]] for a given food and doesn't restore any [[File:SanityMeter.png|24px|link=Sanity]]
+|-
+| style="text-align:center;color:#BF1401" |'''Red (0-20% Spoiled)'''
+|Restores 1/2 of [[File:HungerMeter.png|24px|link=Hunger]] for a given food, doesn't restore any [[File:HealthMeter.png|24px|link=Health]] and decreases [[File:SanityMeter.png|24px|link=Sanity]] by 10
+|}
+
+* Any kind of cooked meat lasts longer than any raw meat, but any kind of raw vegetable lasts longer than any cooked vegetable. The exceptions are Popcorn, which lasts longer than raw Corn, and [[Mushrooms]], which last the same amount of time whether cooked or raw.
+* Food dropped on the ground will '''perish''' at '''1.5''' rate, while keeping it in the '''[[Ice Box]]''' will reduce the rate to '''0.5'''. Additionally, during [[Winter]] and when world temperature is below 0°, the food base perish rate is multiplied by '''0.75''' instead of '''1'''. I.e. during winter, when temperature is below 0°, food in the Ice Box will spoil at '''0.5 × 0.75 = 0.375''' rate. In Reign of Giants's summer and Shipwrecked's dry season, the food spoils at the rate of 1.25.
+* [[Wetness|Soggy]] food spoils 30% faster.
+* The stale and spoiled effects do not apply when eaten by [[WX-78]].
+* The effects of eating stale or spoiled food are worse when playing as [[Wickerbottom]]. Stale food will only give 1/3 of the hunger and 1/4 of health. Spoiled food will restore only 1/6 of the hunger. The rest of the values is the same as other characters.
+* Cooking Food on fire or in [[Crock Pot]] halves the spoiled amount of the Food (e.g., if it were at 80% freshness when raw, it would change to 90% freshness after being cooked).
+* [[Tallbird Egg]]s, [[Mandrake]]s (raw and cooked), the [[Deerclops Eyeball]], [[Guardian's Horn]], ([[Glommer's Goop]] [[File:Reign of Giants icon.png|32px]]), and ([[Blubber]] [[File:Shipwrecked icon.png|32px]]) are the only Food items which don't spoil (despite Honey being the only food in real life that does not spoil).
+* Food cooked in the Crock Pot and meat dried on the [[Drying Rack]] do not begin to spoil until picked up. This was changed in the ''Reign of Giants'' DLC.
+* [[Wigfrid]] eating Spoiled Food doesn't have the Sanity penalty.
+
+== External links ==
+*[https://rezecib.github.io/foodguide/html/index.htm Don't Starve Food Guide]
+
+[[ru:Еда]]

@@ -9,7 +9,7 @@ use rdx\wikiparser\Linker;
 require 'inc.bootstrap.php';
 require 'inc.dont-starve.php';
 
-$wiki = file_get_contents('monster-meat.wiki');
+$wiki = file_get_contents('food.wiki');
 
 $document = new Document(
 	new Parser,

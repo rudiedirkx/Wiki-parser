@@ -1,0 +1,1168 @@
+{{Use mdy dates|date=November 2015}}
+[[Netflix]] is an on-demand internet [[streaming media]] provider.  It has distributed a number of Netflix-exclusive programs, including original series such as ''[[House of Cards (U.S. TV series)|House of Cards]]'' and ''[[Orange Is the New Black]]'', among specials, miniseries, and films such as ''[[The Square (2013 film)|The Square]]'' (2013), which was nominated for an [[Academy Award]], the first nomination for a Netflix production. ''[[Lilyhammer]]'' is the first television show to be streamed on Netflix; it premiered on February 6, 2012.
+
+In addition to its original productions, Netflix's exclusive programming contains continuations of previously canceled series from other channels, including ''[[Arrested Development (TV series)|Arrested Development]]'', ''[[The Killing (U.S. TV series)|The Killing]]'', ''[[Star Wars: The Clone Wars (2008 TV series)|Star Wars: The Clone Wars]]'', ''[[Trailer Park Boys]]'', and ''[[Longmire (TV series)|Longmire]]''. Netflix previously produced content through [[Red Envelope Entertainment]].
+
+==Current original programming==
+These shows had their original production commissioned by Netflix, or had additional seasons commissioned by Netflix.
+
+===Drama===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:20%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:15%;"|Time
+|- style="background:#B0C4DE;"
+! colspan="5" | Current
+|-
+|-
+|''[[House of Cards (U.S. TV series)|House of Cards]]''
+|[[Political drama]]
+|{{dts|February 1, 2013}}
+|{{sort|039|3 seasons, 39 episodes}}
+|{{sort|046|46–58 min.}}
+|-
+|''[[Orange Is the New Black]]''
+|[[Comedy-drama]]
+|{{dts|July 11, 2013}}
+|{{sort|039|3 seasons, 39 episodes}}
+|{{sort|051|51–92 min.}}
+|-
+|''[[Marco Polo (TV series)|Marco Polo]]''
+|[[Period drama]]
+|{{dts|December 12, 2014}}
+|{{sort|010|1 season, 10 episodes}}
+|{{sort|052|52–60 min.}}
+|-
+|''[[Bloodline (TV series)|Bloodline]]''
+|[[Thriller (genre)|Thriller]]/[[Drama film|drama]]
+|{{dts|March 20, 2015}}
+|{{sort|013|1 season, 13 episodes}}
+|{{sort|023|49–65 min.}}
+|-
+|''[[Daredevil (TV series)|Marvel's Daredevil]]''
+|[[Superhero live-action television series|Superhero]]/[[crime drama]]
+|{{dts|April 10, 2015}}
+|{{sort|013|1 season, 13 episodes}}
+|{{sort|048|48–59 min.}}
+|-
+|''[[Sense8]]''
+|[[Sci-fi]]/[[Drama film|drama]]
+|{{dts|June 5, 2015}}
+|{{sort|012|1 season, 12 episodes}}
+|{{sort|048|48–66 min.}}
+|-
+|''[[Narcos]]''
+|[[Crime drama]]
+|{{dts|August 28, 2015}}
+|{{sort|010|1 season, 10 episodes}}
+|{{sort|043|43–57 min.}}
+|-
+|''[[Jessica Jones (TV series)|Marvel's Jessica Jones]]''
+|[[Superhero live-action television series|Superhero]]/[[psychological thriller]]
+|{{dts|November 20, 2015}}
+|{{sort|013|1 season, 13 episodes}}
+|{{sort|048|46–55 min.}}
+|-
+|- style="background:#B0C4DE;"
+! colspan="5" | Former
+|-
+|''[[Hemlock Grove (TV series)|Hemlock Grove]]''
+|[[Horror fiction|Horror]]/[[Thriller (genre)|thriller]]
+|{{dts|April 19, 2013}}
+|{{sort|033|3 seasons, 33 episodes}}
+|{{sort|048|45–58 min.}}
+|-
+|}
+
+===Foreign Language===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:20%;"|Title
+! style="width:20%;"|Country/Language
+! style="width:15%;"|Genre
+! style="width:15%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:10%;"|Time
+|-
+|''[[Club de Cuervos]]''
+|[[Mexico]]/[[Spanish language|Spanish]]
+|[[Comedy-drama]]
+|{{dts|August 7, 2015}}
+|{{sort|013|1 season, 13 episodes}}
+|{{sort|040|40–42 min.}}
+|}
+
+===Comedy===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:20%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:15%;"|Time
+|-
+|''[[Unbreakable Kimmy Schmidt]]''
+|[[Comedy]]
+|{{dts|March 6, 2015}}
+|{{sort|005|1 season, 13 episodes}}
+|{{sort|025|23–28 min.}}
+|-
+|''[[Grace and Frankie]]''
+|[[Comedy]]
+|{{dts|May 8, 2015}}
+|{{sort|005|1 season, 13 episodes}}
+|{{sort|025|25–35 min.}}
+|-
+|''[[Wet Hot American Summer: First Day of Camp]]''
+|[[Comedy]]
+|{{dts|July 31, 2015}}
+|{{sort|005|1 season, 8 episodes}}
+|{{sort|025|25–35 min.}}
+|-
+|''[[Master of None]]''
+|[[Comedy]]
+|{{dts|November 6, 2015}}
+|{{sort|005|1 season, 10 episodes}}
+|{{sort|025|26-33 min.}}
+|-
+|''[[W/ Bob and David]]''
+|[[Sketch comedy]]
+|{{dts|November 13, 2015}}
+|{{sort|005|1 season, 5 episodes}}
+|{{sort|025|27-56 min.}}
+|-
+|''[[Real Rob]]''
+| [[Comedy]]
+|{{dts|December 1, 2015}}
+|{{sort|005|1 season, 8 episodes}}
+|{{sort|025|27-56 min.}}
+|}
+
+===Animated Sitcom===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:20%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:15%;"|Time
+|-
+|''[[BoJack Horseman]]''
+|[[Animated sitcom]]
+|{{dts|August 22, 2014}}
+|{{sort|024|2 seasons, 24 episodes}}
+|{{sort|025|25–26 min.}}
+|-
+|''[[F Is for Family]]''
+|[[Animated sitcom]]
+|{{dts|December 18, 2015}}
+|{{sort|024|1 season, 6 episodes}}
+|{{sort|025|25–26 min.}}
+|}
+
+===Docu-Series===
+These original programs are documentaries that have been put on a series format, with a possible number of seasons and are broken down into episodes.
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:20%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:15%;"|Time
+|- style="background:#B0C4DE;"
+! colspan="5" | Current
+|-
+|''[[Chef's Table]]''
+|[[Documentary]]
+|{{dts|April 26, 2015}}
+|{{sort|005|1 season, 6 episodes}}
+|{{sort|025|41-54 min.}}
+|-
+|''[[Making a Murderer]]''
+|[[Documentary]]
+|{{dts|December 18, 2015}}
+|{{sort|010|1 season, 10 episodes}}
+|{{sort|025|47-66 min.}}
+|-
+|- style="background:#B0C4DE;"
+! colspan="5" | Former
+|-
+|''[[Russell Peters|Russell Peters Vs the World]]''
+|[[Documentary]]
+|{{dts|October 3, 2013}}
+|{{sort|005|1 season, 4 episodes}}
+|{{sort|025|26-29 min.}}
+|}
+
+===Kids/teens===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:20%;"|Premiere
+! style="width:20%;"|Seasons
+! style="width:15%;"|Time
+|-
+|''[[Turbo FAST]]''
+|[[Animation]]
+|{{dts|December 24, 2013}}
+|{{sort|020|2 seasons, 39 episodes}}
+|{{sort|023|23 min.}}
+|-
+|''[[VeggieTales in the House]]''
+|[[Animation]]
+|{{dts|November 26, 2014}}
+|{{sort|005|2 seasons, 52 episodes}}
+|{{sort|023|23 min.}}
+|-
+|''[[All Hail King Julien]]''
+|[[Animation]]
+|{{dts|December 19, 2014}}
+|{{sort|005|2 seasons, 26 episodes}}
+|{{sort|022|22 min.}}
+|-
+|''[[The Adventures of Puss in Boots]]''
+|[[Animation]]
+|{{dts|January 16, 2015}}
+|{{sort|005|1 season, 15 episodes}}
+|{{sort|022|22 min.}}
+|-
+|''[[Richie Rich (2015 TV series)|Richie Rich]]''
+|[[Comedy]]
+|{{dts|February 20, 2015}}
+|{{sort|005|2 seasons, 21 episodes}}
+|{{sort|025|21-23 min.}}
+|-
+|''Project Mc<sup>2</sup>
+|[[Comedy]]/[[educational]]
+|{{dts|August 7, 2015}}
+|{{sort|005|1 season, 3 episodes}}
+|{{sort|025|27-29 min.}}
+|-
+|''[[Dinotrux]]''
+|[[Animation]]
+|{{dts|August 14, 2015}}
+|{{sort|005|1 season, 10 episodes}}
+|{{sort|025|22-47 min.}}
+|-
+|''[[The New Mr. Peabody and Sherman Show|The Mr. Peabody and Sherman Show]]''
+|[[Animation]]
+|{{dts|October 9, 2015}}
+|{{sort|005|1 season, 13 episodes}}
+|{{sort|025|23 min.}}
+|-
+|''Popples''
+|[[Animation]]
+|{{dts|October 30, 2015}}
+|{{sort|005|1 season, 5 episodes}}
+|{{sort|025|24 min.}}
+|-
+|''Care Bears & Cousins''
+|[[Animation]]
+|{{dts|November 6, 2015}}
+|{{sort|005|1 season, 6 episodes}}
+|{{sort|025|22 min.}}
+|}
+
+===Continuations===
+These shows have been picked up by Netflix to continue after they have been cancelled by their original network.
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:30%;"|Title
+! style="width:15%;"|Genre
+! style="width:15%;"|Prev. Channel
+! style="width:15%;"|Premiere
+! style="width:15%;"|Seasons
+! style="width:25%;"|Time
+|-
+|- style="background:#B0C4DE;"
+! colspan="6" | Current
+|-
+|''[[Arrested Development (TV series)|Arrested Development]]'' ([[Arrested Development (season 4)|season 4]])
+|[[Comedy]]
+|[[Fox Broadcasting Company|Fox]]
+|{{dts|May 26, 2013}}
+|{{sort|015|1 season, 15 episodes}}
+|{{sort|028|28–37 min.}}
+|-
+|''[[Trailer Park Boys]]'' ([[List of Trailer Park Boys episodes|seasons 8 and 9]] only)
+|[[Mockumentary]]
+|[[Showcase (Canadian TV channel)|Showcase]]
+|{{dts|September 5, 2014}}
+|{{sort|013|2 seasons, 20 episodes}}
+|{{sort|022|22-32 min.}}
+|-
+|''[[DreamWorks Dragons]]'' ([[List of DreamWorks Dragons episodes|season 3]] only)
+|[[Animation]]
+|[[Cartoon Network]]
+|{{dts|June 26, 2015}}
+|{{sort|013|1 season, 13 episodes}}
+|{{sort|022|22 min.}}
+|-
+|''[[Longmire (TV series)|Longmire]]'' ([[List of Longmire episodes|season 4]])
+|[[Crime drama]]
+|[[A&E (TV channel)|A&E Network]]
+|{{dts|September 10, 2015}}
+|{{sort|013|1 season, 10 episodes}}
+|{{sort|022|55–59 min.}}
+|-
+|- style="background:#B0C4DE;"
+! colspan="6" | Former
+|-
+|''[[The Problem Solverz]]'' ([[List of The Problem Solverz episodes#Season 2 (2013)|season 2]] only)
+|[[Animation]]
+|[[Cartoon Network]]
+|{{dts|March 30, 2013}}
+|{{sort|08|1 season, 8 episodes}}
+|{{sort|011|11 min.}}
+|-
+|''[[Star Wars: The Clone Wars (2008 TV series)|Star Wars: The Clone Wars]]'' ([[List of Star Wars: The Clone Wars episodes|season 6]] only)
+|[[Animation]]
+|[[Cartoon Network]]
+|{{dts|March 7, 2014}}
+|{{sort|005|1 season, 13 episodes}}
+|{{sort|022|22 min.}}
+|-
+|''[[The Killing (U.S. TV series)|The Killing]]'' ([[The Killing (season 4)|season 4]] only)
+|[[Crime drama]]
+|[[AMC (TV channel)|AMC]]
+|{{dts|August 1, 2015}}
+|{{sort|006|1 season, 6 episodes}}
+|{{sort|022|54–60 min.}}
+|}
+
+===Specials===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:37%;"|Title
+! style="width:21%;"|Genre
+! style="width:21%;"|Premiere
+! style="width:21%;"|Time
+|-
+|''[[Trailer Park Boys]] Live in F**kin' Dublin''
+|[[Mockumentary]]
+|{{dts|June 1, 2014}}
+|{{sort|081|1 hour, 21 min.}}
+|-
+|''[[Trailer Park Boys]] Swearnet Live''
+|Mockumentary
+|{{dts|October 1, 2014}}
+|{{sort|075|1 hour, 15 min.}}
+|-
+|''[[Trailer Park Boys]] Live at the North Pole''
+|Mockumentary
+|{{dts|November 15, 2014}}
+|{{sort|088|1 hour, 28 min.}}
+|-
+|''[[Bojack Horseman]] Christmas Special: Sabrina's Christmas Wish''
+|[[Animation]]
+|{{dts|December 19, 2014}}
+|{{sort|060|25 min.}}
+|-
+|''[[Ever After High]]'': ''Spring Unsprung''
+|[[Animation]]
+|{{dts|February 6, 2015}}
+|{{sort|047|47 min.}}
+|-
+|''[[Ever After High]]'': ''Way Too Wonderland''
+|[[Animation]]
+|{{dts|August 14, 2015}}
+|{{sort|025|23 min.}}
+|-
+|''[[A Very Murray Christmas]]''
+|[[Comedy]]/[[musical film|musical]]
+|{{dts|December 4, 2015}}
+|{{sort|56|56 min.}}
+|-
+|''[[Trailer Park Boys]] Drunk, High And Unemployed Live In Austin''
+|Mockumentary
+|{{dts|December 09, 2015}}
+|{{sort|075|1 hour, 15 min.}}
+|}
+
+===Stand-Up Comedy===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:37%;"|Title
+! style="width:21%;"|Genre
+! style="width:21%;"|Premiere
+! style="width:21%;"|Time
+|-
+|''[[Bill Burr]]: You People Are All the Same''
+|[[Stand-up comedy]]
+|{{dts|August 16, 2012}}
+|{{sort|069|1 hour, 9 min.}}
+|-
+|''[[Moshe Kasher]]: Live in Oakland''<ref name="huffingtonpost">{{cite news|url=http://www.huffingtonpost.com/2012/10/29/todd-glass-moshe-kasher-on-netflix-instant_n_2039684.html |title=Moshe Kasher & Todd Glass Release Specials On Netflix Instant |publisher=The Huffington Post |date=October 29, 2012 |accessdate=July 2, 2013 |first=Ross |last=Luippold}}</ref>
+|Stand-up comedy
+|{{dts|October 26, 2012}}
+|{{sort|060|1 hour}}
+|-
+|''Fat Man Little Boy''<ref>{{cite web|url=http://guyspeed.com/kevin-heffernan-and-steve-lemme-are-fat-man-little-boy-interview/ |title=Kevin Heffernan and Steve Lemme are 'Fat Man Little Boy' |publisher=Guyspeed.com |date=March 1, 2013 |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|March 1, 2013}}
+|{{sort|085|1 hour, 25 min.}}
+|-
+|''[[Brian Posehn]]: [[The Fartist]]''<ref>{{cite web|url=http://www.thecomedybureau.com/post/42597197850 |title=Brian Posehn is Coming Out with Netflix Special and Watched The Avengers Naked |publisher=Thecomedybureau.com |date= |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|March 3, 2013}}
+|{{sort|058|58 min.}}
+|-
+|''[[Craig Ferguson]]: [[I'm Here to Help]]''<ref>{{cite web |url=http://splitsider.com/2013/03/craig-ferguson-to-release-new-stand-up-special-on-netflix-march-15th/ |title=Craig Ferguson to Release New Stand-Up Special on Netflix March 15th |publisher=Splitsider.com |date=March 5, 2013 |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|March 15, 2013}}
+|{{sort|083|1 hour, 23 min.}}
+|-
+|''[[John Hodgman: Ragnarok]]''<ref>{{cite web |url=http://www.webpronews.com/john-hodgman-special-ragnarok-coming-to-netflix-heres-the-trailer-2013-06 |title=John Hodgman Special ‘Ragnarok’ Coming To Netflix, Here’s The Trailer |publisher=Webpronews.com |date=June 7, 2013 |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|June 20, 2013}}
+|{{sort|067|1 hour, 7 min.}}
+|-
+|''[[Rob Schneider]]: Soy Sauce and the Holocaust''
+|Stand-up comedy
+|{{dts|August 1, 2013}}
+|{{sort|060|1 hour}}
+|-
+|''[[Mike Birbiglia]]: My Girlfriend's Boyfriend''
+|Stand-up comedy
+|{{dts|August 23, 2013}}
+|{{sort|075|1 hour, 15 min.}}
+|-
+|''[[Doug Stanhope]]: Beer Hall Putsch''
+|Stand-up comedy
+|{{dts|August 23, 2013}}
+|{{sort|060|1 hour}}
+|-
+|''[[John Caparulo]]: Come Inside Me''
+|Stand-up comedy
+|{{dts|September 5, 2013}}
+|{{sort|060|1 hour}}
+|-
+|''[[Marc Maron]]: Thinky Pain''<ref>{{cite web |url=http://splitsider.com/2013/10/talking-to-marc-maron-about-his-new-special-thinky-pain-maron-season-2-and-getting-his-due/ |title=Talking to Marc Maron about His New Special ‘Thinky Pain’, ‘Maron’ Season 2, and Getting His Due |publisher=Splitsider |date=October 7, 2013}}</ref>
+|Stand-up comedy
+|{{dts|October 7, 2013}}
+|{{sort|094|1 hour, 34 min.}}
+|-
+|''[[Russell Peters]]: Notorious''<ref name="deadline1">{{cite web |url=http://www.deadline.com/2013/09/netflix-sets-up-russell-peters-special-docu-series-to-kick-off-services-expansion-into-standup-specials-documentaries/ |title=Netflix Sets Up Russell Peters Special & Docu-Series To Kick Off Service’s Expansion Into Stand-Up Specials & Documentaries |publisher=Deadline.com |date=September 3, 2013 |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|October 14, 2013}}
+|{{sort|071|1 hour, 11 min.}}
+|-
+|''[[Aziz Ansari: Buried Alive]]''<ref>{{cite web|url=http://gizmodo.com/aziz-ansari-stand-up-special-is-netflixs-next-big-prem-1220624993 |title=Aziz Ansari Stand-Up Special Is Netflix's Next Big Premiere |publisher=Gizmodo.com |date=August 29, 2013 |accessdate=December 19, 2013}}</ref>
+|Stand-up comedy
+|{{dts|November 1, 2013}}
+|{{sort|079|1 hour, 19 min.}}
+|-
+|''[[Jim Jefferies (comedian)|Jim Jefferies]]: Bare''
+|Stand-up comedy
+|{{dts|August 29, 2014}}
+|{{sort|076|1 hour, 16 min.}}
+|-
+|''[[Chelsea Handler]]: Uganda Be Kidding Me''
+|Stand-up comedy
+|{{dts|October 10, 2014}}
+|{{sort|071|1 hour, 11 min.}}
+|-
+|''[[Wyatt Cenac]]: Brooklyn''
+|Stand-up comedy
+|{{dts|October 21, 2014}}
+|{{sort|067|1 hour, 7 min.}}
+|-
+|''[[Doug Benson]]: Doug Dynasty''
+|Stand-up comedy
+|{{dts|November 6, 2014}}
+|{{sort|060|1 hour}}
+|-
+|''[[Chelsea Peretti]]: One of the Greats''
+|Stand-up comedy
+|{{dts|November 14, 2014}}
+|{{sort|074|1 hour, 14 min.}}
+|-
+|''[[Bill Burr]]: I'm Sorry You Feel That Way''
+|Stand-up comedy
+|{{dts|December 5, 2014}}
+|{{sort|080| 1 hour, 20 min.}}
+|-
+|''[[Nick Offerman: American Ham]]''
+|Stand-up comedy
+|{{dts|December 12, 2014}}
+|{{sort|080| 1 hour, 20 min.}}
+|-
+|''[[Iliza Shlesinger]]: Freezing Hot''
+|Stand-up comedy
+|{{dts|January 23, 2015}}
+|{{sort|071|1 hour, 11 min.}}
+|-
+|''[[Ralphie May]]: Unruly''
+|Stand-up comedy
+|{{dts|February 27, 2015}}
+|{{sort|083|1 hour, 23 min.}}
+|-
+|''[[Aziz Ansari]]: Live at Madison Square Garden''
+|Stand-up comedy
+|{{dts|March 6, 2015}}
+|{{sort|058|58 min.}}
+|-
+|''[[Chris D'Elia]]: Incorrigible''
+|Stand-up comedy
+|{{dts|April 17, 2015}}
+|{{sort|083|1 hour, 23 min.}}
+|-
+|''[[Jen Kirkman]]: I'm Gonna Die Alone (And I Feel Fine)''
+|Stand-up comedy
+|{{dts|May 22, 2015}}
+|{{sort|078|1 hour, 18 min.}}
+|-
+|''[[Chris Tucker]]: Chris Tucker Live''
+|Stand-up comedy
+|{{dts|July 10, 2015}}
+|{{sort|079|1 hour, 18 min.}}
+|-
+|''[[Demetri Martin]]: Live (At the Time)''
+|Stand-up comedy
+|{{dts|August 14, 2015}}
+|{{sort|061|1 hour, 1 min.}}
+|-
+|''[[Anjelah Johnson]]: Not Fancy''
+|Stand-up comedy
+|{{dts|October 2, 2015}}
+|{{sort|063|1 hour, 3 min.}}
+|-
+|''[[Anthony Jeselnik]]: Thoughts and Prayers''
+|Stand-up comedy
+|{{dts|October 16, 2015}}
+|{{sort|059|59 min.}}
+|-
+|''[[John Mulaney]]: The Comeback Kid''
+|Stand-up comedy
+|{{dts|November 13, 2015}}
+|{{sort|060|1 hour, 1 min.}}
+|-
+|''[[Brent Morin]]: I'm Brent Morin''
+|Stand-up comedy
+|{{dts|December 1, 2015}}
+|{{sort|061|1 hour, 1 min.}}
+|-
+|''[[Mike Epps]]: After Dark''
+|Stand-up comedy
+|{{dts|December 18, 2015}}
+|{{sort|062|1 hour, 1 min.}}
+|}
+
+===Documentaries===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:37%;"|Title
+! style="width:21%;"|Genre
+! style="width:21%;"|Premiere
+! style="width:21%;"|Time
+|-
+|''Art of Conflict''
+|History-documentary
+|{{dts|October 12, 2012}}
+|{{sort|073|1 hour, 13 min.}}
+|-
+|''[[The Zen of Bennett]]''
+|Documentary
+|{{dts|November 12, 2012}}
+|{{sort|073|1 hour, 24 min.}}
+|-
+|''[[Henry Paulson|HANK: 5 Years from the Brink]]''<ref>{{cite news|url=http://online.wsj.com/article/PR-CO-20130909-904631.html |title=Bloomberg Businessweek Film "HANK: 5 Years From the Brink" Coming Exclusively to Netflix On September 16 - WSJ.com |publisher=Online.wsj.com |date=September 9, 2013 |accessdate=September 22, 2013}}</ref>
+|Documentary
+|{{dts|September 16, 2013}}
+|{{sort|075|1 hour, 15 min.}}
+|-
+|''The Short Game''
+|Sport-documentary
+|{{dts|December 12, 2013}}
+|{{sort|099|1 hour, 39 min.}}
+|-
+|''[[The Square (2013 film)|The Square]]''
+|Drama-documentary
+|{{dts|January 17, 2014}}
+|{{sort|079|1 hour, 44 min.}}
+|-
+|''[[Mitt (film)|Mitt]]''<ref>{{cite web |url=http://www.deadline.com/2013/12/netflix-documentary-mitt-romney-president-sundance-2014/ |title=Netflix To Debut Romney Presidential Campaign Documentary ‘Mitt’ In January 2014 Following Sundance Premiere |publisher=deadline.com |date=December 9, 2013 |accessdate=January 17, 2014}}</ref>
+|Political-documentary
+|{{dts|January 24, 2014}}
+|{{sort|079|1 hour, 32 min.}}
+|-
+|''The Fabulous Ice Age''
+|Biography-documentary
+|{{dts|February 3, 2014}}
+|{{sort|073|1 hour, 13 min.}}
+|-
+|''[[The Lady in Number 6]]''<ref>{{cite web|url=http://www.theverge.com/2014/3/2/5464294/netflix-wins-its-first-oscar-award-for-the-square|title=Netflix lost its first Oscar nomination, but it bought the short documentary that won|author=tcsottek|publisher=Vox Media|work=The Verge}}</ref>
+|Biography-documentary
+|{{dts|April 4, 2014}}
+|{{sort|038|38 min.}}
+|-
+|''Brave Miss World''
+|Biography-documentary
+|{{dts|May 29, 2014}}
+|{{sort|088|1 hour, 22 min.}}
+|-
+|''This is Not a Ball''
+|Art-documentary
+|{{dts|June 13, 2014}}
+|{{sort|090|1 hour, 30 min.}}
+|-
+|''[[The Battered Bastards of Baseball]]''
+|Sport-documentary
+|{{dts|July 11, 2014}}
+|{{sort|073|1 hour, 13 min.}}
+|-
+|''Mission Blue''
+|Environmental-documentary
+|{{dts|August 15, 2014}}
+|{{sort|095|1 hour, 35 min.}}
+|-
+|''Print the Legend''<ref>{{cite news|url=http://variety.com/2014/digital/news/netflix-acquires-3d-printing-documentary-print-the-legend-1201147547/|title=Netflix Acquires 3D Printing Documentary ‘Print the Legend’|author=Todd Spangler|work=Variety|date=March 26, 2014}}</ref>
+|Documentary
+|{{dts|September 26, 2014}}
+|{{sort|100|1 hour, 40 min.}}
+|-
+|''[[E-Team]]''
+|Documentary
+|{{dts|October 24, 2014}}
+|{{sort|090|1 hour, 30 min.}}
+|-
+|''[[Virunga (film)|Virunga]]''
+|Nature-documentary
+|{{dts|November 7, 2014}}
+|{{sort|090|1 hour, 30 min.}}
+|-
+|''Virunga: Gorillas in Peril''
+|Nature-documentary
+|{{dts|February 6, 2015}}
+|{{sort|090| 28 min.}}
+|-
+|''My Own Man''
+|Documentary
+|{{dts|March 6, 2015}}
+|{{sort|081|1 hour, 21 min.}}
+|-
+|''The Other One: The Long Strange Trip of Bob Weir''
+|Documentary
+|{{dts|May 22, 2015}}
+|{{sort|083|1 hour, 23 min.}}
+|-
+|''[[Hot Girls Wanted]]''
+|Documentary
+|{{dts|May 29, 2015}}
+|{{sort|084|1 hour, 24 min.}}
+|-
+|''[[What Happened, Miss Simone?]]''
+|Documentary
+|{{dts|June 26, 2015}}
+|{{sort|086|1 hour, 24 min.}}
+|-
+|''[[Tig (film)|Tig]]''
+|Documentary
+|{{dts|July 17, 2015}}
+|{{sort|088|1 hour, 20 min.}}
+|-
+|''Keith Richards: Under the Influence''
+|Documentary
+|{{dts|September 18, 2015}}
+|{{sort|089|1 hour, 21 min.}}
+|-
+|''Winter on Fire: Ukraine's Fight for Freedom''
+|Political-documentary
+|{{dts|October 9, 2015}}
+|{{sort|089|1 hour, 31 min.}}
+|-
+|''Tyke: Elephant Outlaw''
+|Documentary
+|{{dts|December 1, 2015}}
+|{{sort|090|1 hour, 31 min.}}
+|}
+
+===Films===
+{| class="wikitable sortable" style="width:100%;"
+|-
+! style="width:37%;"|Title
+! style="width:21%;"|Genre
+! style="width:21%;"|Premiere
+! style="width:21%;"|Time
+|-
+|''[[Beasts of No Nation (film)|Beasts of No Nation]]''
+|[[War film|War]] [[drama film]]
+|{{dts|October 16, 2015}}<ref name=films15>{{cite web|url=http://www.digitalspy.co.uk/movies/news/a656986/idris-elbas-beasts-of-no-nation-adam-sandlers-ridiculous-six-get-netflix-dates.html#~phMmm40Jse5ZPf|title=Idris Elba's Beasts of No Nation, Adam Sandler's Ridiculous Six get Netflix dates|first=Justin|last=Harp|date=July 7, 2015|publisher=Digital Spy|accessdate=July 7, 2015}}</ref>
+|{{sort|089|2 hour, 16 min.}}
+|-
+|''[[The Ridiculous 6]]''
+|[[Western (genre)|Western]]-[[comedy]]
+|December 11, 2015
+|{{sort|089|1 hour, 59 min.}}
+|}
+
+==Upcoming original programming==
+
+===New series===
+{| class="wikitable sortable" style="width:95%; font-size:95%;"
+|-
+! style="width:50%;"|Title
+! style="width:25%;"|Genre
+! style="width:25%;"|Premiere
+|-
+|''[[Dawn of the Croods]]''<ref name="variety1">http://variety.com/2015/digital/news/netflix-orders-7-original-kids-series-including-legos-bionicle-and-dreamworks-croods-1201607216/</ref>
+|[[Animation]]
+|{{dts|December 24, 2015}}
+|-
+|''[[Degrassi: The Next Generation|Degrassi: Next Class]]''<ref>{{cite web|url=http://www.eonline.com/news/664529/degrassi-lives-and-is-headed-to-netflix-get-the-scoop|title=Degrassi Lives and Is Headed to Netflix—Get the Scoop|work=E! Online}}</ref>
+|[[Teen drama]]
+|January 15, 2016
+|-
+|''[[Fuller House (TV series)|Fuller House]]''<ref>{{cite news|url=http://www.huffingtonpost.com/2015/04/21/netflix-full-house-revival_n_7106884.html|title=Netflix's 'Full House' Revival Is Officially Happening|publisher=Huffington Post|date= April 21, 2015|accessdate=April 21, 2015}}</ref>
+|[[Comedy]]
+|February 26, 2016<ref>{{cite web|last1=Friedlander|first1=Whitney|title=Netflix’s ‘Fuller House’ Gets Premiere Date, Teaser|url=http://variety.com/2015/tv/markets-festivals/fuller-house-premiere-date-feb-26-netflix-1201664055/|website=Variety.com|accessdate=17 December 2015}}</ref>
+|-
+|''Marseille''<ref>{{cite news |url=http://variety.com/2014/film/news/netflix-unveils-marseille-first-french-drama-commission-1201292688/ |title=Netflix unveils Marseille first French drama commission|publisher=Variety|date=August 28, 2014 |accessdate=November 11, 2014 |first=Elsa |last=Keslassy}}</ref>
+|[[French-language]] [[political drama]]
+|{{dts|March 2016}}<ref>{{cite web|url=http://www.lefigaro.fr/medias/2015/08/24/20004-20150824ARTFIG00283-la-serie-marseille-arrivera-en-mars-2016-sur-netflix.php|title=La série ''Marseille'' arrivera en mars 2016 sur Netflix|publisher=Le Figaro|date=August 25, 2015|accessdate=August 25, 2015}}</ref>
+|-
+|''[[List of Bionicle media#Lego Bionicle: The Journey to One|Lego Bionicle: The Journey to One]]''<ref name="variety1"/>
+|[[Animation]]
+|Q1 2016
+|-
+|''Lost & Found Music Studios''<ref name="variety1"/>
+|[[Musical film|Musical]]
+|Q1 2016
+|-
+|''Winx Club WOW: World of Winx''{{Citation needed|date=January 2015}}
+|[[Animation]]
+|Early 2016
+|-
+|''[[Lego Friends#TV series|Lego Friends: The Power of Friendship]]''
+|[[Animation]]
+|Q2 2016
+|-
+|''Cirque du Soleil – Luna Petunia''{{Citation needed|date=January 2015}}
+|[[Animation]]
+|Late 2016
+|-
+|''3%''<ref>{{cite news |url=http://variety.com/2015/tv/news/netflix-3-brazil-drama-series-cesar-charlone-1201556793/ |title=Netflix Orders Brazilian Drama Series ‘3%’|publisher=Variety|date=August 5, 2014 |accessdate=August 29, 2015 |first=Cynthia |last=Littleton}}</ref>
+|[[Portuguese-language]] [[sci-fi]]
+|{{dts|2016}}<ref>{{cite news|url=http://variety.com/2015/tv/news/netflix-3-brazil-drama-series-cesar-charlone-1201556793/|title=Netflix Orders Brazilian Drama Series ‘3%’|publisher=Variety|date=August 5, 2014 |accessdate=August 29, 2015|first=Cynthia|last=Littleton}}</ref>
+|-
+|''Kazoops! ''<ref name="Filmes-Netflix"/>
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''[[Word Party]]''<ref name="Filmes-Netflix"/>
+|[[Animation]]
+|{{dts|2016}}
+|-
+|[[Luke Cage (TV series)|''Marvel's Luke Cage'']]<ref name="Marvel">{{cite web |url=http://www.deadline.com/2013/11/disney-netflix-marvel-series/#more-629696 |title=Netflix Picks Up Four Marvel Live-Action Series & A Miniseries For 2015 Launch |publisher=Deadline.com |date=November 7, 2013 |accessdate=December 19, 2013}}</ref>
+|[[Superhero live-action television series|Superhero]]
+|{{dts|2016}}
+|-
+|''[[Flaked (TV series)|Flaked]]''<ref>{{cite web|url=http://www.worldscreen.com/articles/display/2015-8-28-asia-hibana-netflixjapan|title=Hibana Marks First Netflix Original Series For Japan|author=Kristin Brzoznowski|work= Worldscreen}}</ref>
+|[[Comedy]]
+|{{dts|2016}}
+|-
+|''[[The OA]]''<ref>{{cite news|url=http://variety.com/2015/digital/news/netflix-orders-the-oa-drama-from-brit-marling-zal-batmanglij-of-sound-of-my-voice-1201446917/|title=Netflix Orders ‘The OA’ Drama Series From Brit Marling, Zal Batmanglij of ‘Sound of My Voice’|publisher=Variety|date= March 5, 2015|accessdate=March 5, 2015|first=Todd|last=Spangler}}</ref>
+|[[Drama]]
+|{{dts|2016}}
+|-
+|''[[Chelsea Handler]]'' talk show{{Citation needed|date=January 2015}}
+|[[Talk show]]
+|{{dts|2016}}
+|-
+|''[[Justin Time (TV series)|Justin Time]]: The New Adventures''<ref>{{cite web| title= Netflix orders 'Justin Time' spin-off| url= http://insidetv.ew.com/2014/11/10/netflix-orders-justin-time-spin-off/|accessdate=November 11, 2014}}</ref>
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''Kong: King of the Apes''{{Citation needed|date=January 2015}}
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''[[The Magic School Bus]] 360°''<ref>{{cite news| url=http://www.nytimes.com/2014/06/11/business/media/netflix-orders-new-childrens-show-based-on-magic-school-bus.html | work=The New York Times | first=Elizabeth | last=Jensen | title=Netflix Orders New Children's Show Based on 'Magic School Bus' | date=June 10, 2014}}</ref>
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''Edgar Rice Burroughs’ Tarzan and Jane''{{Citation needed|date=January 2015}}
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''[[Love (TV series)|Love]]''<ref>{{cite news |url=http://variety.com/2014/digital/news/netflix-recuits-judd-apatow-handing-2-season-order-lesley-arfin-comedy-love-1201306514/ |title=Netflix Recruits Judd Apatow, Handing 2-Season Order to Lesley Arfin Comedy ‘Love’ |publisher=Variety.com |date=September 16, 2014 |accessdate=September 16, 2014 |first=Cynthia |last=Littleton}}</ref>
+|[[Comedy]]
+|{{dts|2016}}
+|-
+|''[[The Get Down]]''<ref>{{cite news|url=http://variety.com/2015/digital/news/netflix-orders-music-drama-the-get-down-from-baz-luhrmann-shawn-ryan-1201424767/
+|title= Netflix Orders Music Drama ‘The Get Down’ From Baz Luhrmann, Shawn Ryan
+|date=February 5, 2015 |accessdate=February 5, 2015|work=Variety|first=Cynthia|last=Littleton}}</ref>
+|[[Music drama]]
+|{{dts|2016}}
+|-
+|''[[The Crown (TV series)|The Crown]]''<ref>{{cite web |url=http://www.theguardian.com/media/2014/nov/13/netflix-crown-drama-buckingham-palace |title=Netflix confirms epic drama The Crown, about No 10 and Buckingham Palace |publisher=The Guardian |date=November 13, 2014 |accessdate=November 13, 2014}}</ref><ref>{{cite web|url=http://www.ign.com/articles/2015/06/19/matt-smith-starring-in-netflix-series-the-crown|title=Matt Smith Starring in Netflix Series, The Crown|publisher=IGN.com|date= June 19, 2015|accessdate=June 17, 2015}}</ref>
+|[[Historical drama]]
+|{{dts|2016}}
+|-
+|''[[Stranger Things (TV series)|Stranger Things]]''<ref>{{cite news |url=http://variety.com/2015/digital/news/netflix-montauk-duffer-brothers-1201465182/ |title=Netflix Orders Montauk Supernatural Drama Series from ‘Wayward Pines’ Duffer Twins|date=April 2, 2015|accessdate=April 2, 2015|work=Variety|first=Todd|last=Spangler}}</ref>
+|[[Sci-fi]]/[[Drama film|drama]]
+|{{dts|2016}}
+|-
+|''[[The Ranch (TV series)|The Ranch]]''<ref>{{cite web|url=http://deadline.com/2015/06/ashton-kutcher-danny-masterson-netflix-comedy-series-the-ranch-1201446202/|title=Ashton Kutcher & Danny Masterson To Star In Netflix Series From ‘2.5 Men’ Duo|publisher=Deadline.com Post|date= June 17, 2015|accessdate=June 17, 2015}}</ref>
+|[[Comedy]]
+|{{dts|2016}}
+|-
+|''[[Lady Dynamite (TV series)|Lady Dynamite]]''<ref>{{cite web|url=http://tvline.com/2015/06/19/maria-bamford-lady-dynamite-series-order-netflix/|title=Comedienne Maria Bamford to Star in Netflix's Lady Dynamite|publisher=TVLine Post|date= June 19, 2015|accessdate=June 19, 2015}}</ref>
+|[[Comedy]]
+|{{dts|2016}}
+|-
+|''Frontier''{{Citation needed|date=November 2015}}
+|[[Drama]]
+|2016
+|-
+|''True and the Rainbow Kingdom''<ref name="Filmes-Netflix">{{cite web|title=Netflix Adds Three New Animated Series For Preschoolers|url=http://deadline.com/2015/06/netflix-animated-series-preschoolers-1201462677/|accessdate=June 30, 2015}}</ref>
+|[[Animation]]
+|{{dts|2017}}
+|-
+|''Buddy Thunderstruck''<ref name="variety1"/>
+|[[Animation]]
+|{{dts|2017}}
+|-
+|''Suburra''<ref>https://pr.netflix.com/WebClient/getNewsSummary.do?newsId=2693</ref>
+|[[Italian-language]] [[crime drama]]
+|{{dts|2017}}
+|-
+|''Las Leyendas''<ref name="variety1"/>
+|[[Animation]]
+|{{dts|2017}}
+|-
+|''[[Green Eggs and Ham (TV series)|Green Eggs and Ham]]''<ref>{{cite web|url=http://deadline.com/2015/04/green-eggs-and-ham-animated-series-netflix-ellen-degeneres-1201418260/|title=Netflix Picks Up ‘Green Eggs and Ham’ Animated Series From Ellen DeGeneres|publisher=Deadline.com Post|date= April 30, 2015|accessdate=April 30, 2015}}</ref>
+|[[Animation]]
+|{{dts|2018}}
+|-
+|''A Series of Unfortunate Events''<ref>{{cite web |url=http://www.theguardian.com/tv-and-radio/2014/nov/05/netflix-adapt-lemony-snicket-books-tv |title=Netflix to adapt Lemony Snicket books into TV series|work=The Guardian |date=November 5, 2014 |accessdate=November 5, 2014}}</ref>
+|[[Comedy-drama]]
+|TBA
+|-
+|[[Iron Fist (TV series)|''Marvel's Iron Fist'']]<ref name="Marvel"/>
+|[[Superhero live-action television series|Superhero]]
+|TBA
+|-
+|''13 Reasons Why''<ref>{{cite web |url=http://www.thewrap.com/selena-gomezs-13-reasons-given-series-order-at-netflix/|title=Selena Gomez’s ’13 Reasons Why’ Given Series Order at Netflix|work=The Wrap |date=October 29, 2015 |accessdate=November 18, 2015}}</ref>
+|[[Drama]]
+|TBA
+|-
+|''Lost in Space''{{Citation needed|date = December 2015}}
+|[[Sci-fi]]/[[Drama film|drama]]
+|TBA
+|}
+
+===Renewed series===
+{| class="wikitable sortable" style="width:95%; font-size:95%;"
+|-
+! style="width:50%;"|Title
+! style="width:25%;"|Genre
+! style="width:25%;"|Premiere
+|-
+|''[[House of Cards (U.S. TV series)|House of Cards]]'' season 4<ref>{{cite web|title=Netflix says House of Cards season four is coming in 2016
+|url=http://www.theverge.com/2015/4/2/8337865/netflix-says-house-of-cards-season-four-is-coming-in-2016|website=The Verge|accessdate=April 2, 2015}}</ref>
+|[[Political drama]]
+|March 4, 2016<ref>{{cite web|last1=Ausiello|first1=Michael|title=House of Cards Season 4: Netflix Announces 2016 Premiere Date|url=http://tvline.com/2015/12/15/house-of-cards-season-4-premiere-date/|website=TVLine.com|accessdate=December 15, 2015}}</ref>
+|-
+|''[[Unbreakable Kimmy Schmidt]]'' season 2
+|[[Comedy]]
+|Early 2016<ref name="ew1">{{cite web|last=Snetiker|first=Marc|title=Everything we know about season 2 of Unbreakable Kimmy Schmidt|url=http://www.ew.com/article/2015/04/02/unbreakable-kimmy-schmidt-season-2|accessdate=April 8, 2015|work=[[Entertainment Weekly]]|publisher=Time Inc.|date=April 2, 2015}}</ref>
+|-
+|''[[Orange Is the New Black]]'' season 4<ref>{{cite web|url=http://www.digitalspy.co.uk/ustv/news/a568785/orange-is-the-new-black-renewed-by-netflix-for-third-season.html#~oDt6ngfWfAVhpS|title=Orange Is the New Black renewed by Netflix for third season|work=Digital Spy}}</ref><ref>{{cite news| url=http://variety.com/2015/digital/news/netflix-renews-orange-is-the-new-black-for-season-4-1201472785/ | work=Variety | first=Todd | last=Spangler | title=Netflix Renews 'Orange Is the New Black' for Season 4 | date=April 15, 2015}}</ref>
+|Comedy
+|{{dts|2016}}
+|-
+|''[[Bloodline (TV series)|Bloodline]]'' season 2<ref>{{cite web|last1=Ausiello|first1=Michael|title=Bloodline Renewed for Season 2|url=http://tvline.com/2015/03/31/bloodline-season-2-renewal-netflix/|website=TVLine.com|accessdate=March 31, 2015}}</ref>
+|Drama
+|{{dts|2016}}
+|-
+|[[Daredevil (TV series)|''Marvel's Daredevil'']] season 2<ref>{{cite web|title=Netflix Orders a Second Season of Marvel's Daredevil
+|url=http://marvel.com/news/tv/24478/netflix_orders_a_second_season_of_marvels_daredevil|website=Marvel.com|accessdate=April 21, 2015}}</ref>
+|[[Superhero live-action television series|Superhero]]/[[crime drama]]
+|{{dts|2016}}
+|-
+|''[[Grace and Frankie]]'' season 2 and season 3
+|Comedy
+|{{dts|2016}}
+|-
+|''[[BoJack Horseman]]'' season 3<ref name="premieres">{{cite web|url=http://www.hitfix.com/the-dartboard/netflix-renews-bojack-sets-premieres-for-longmire-aziz-ansari-comedy/|title=Netflix renews 'BoJack,' sets premieres for 'Longmire' & Aziz Ansari comedy |publisher=[[HitFix]] |date=July 28, 2015}}</ref>
+|Comedy
+|{{dts|2016}}
+|-
+|''[[Longmire_(TV_series)|Longmire]]'' season 5<ref>{{cite web|url=http://www.dayherald.com/longmire-season-5-plot-revealed-premiers-on-september-27-2016/8005/|title=LONGMIRE SEASON 5: PLOT REVEALED, PREMIERES ON SEPTEMBER 27, 2016 |publisher=[[Day Herald]] |date=December 16, 2015}}</ref>
+|[[Crime drama]]
+|{{dts|2016}}
+|-
+|[[Arrested Development (TV series)|''Arrested Development'']] season 5
+|Comedy
+|{{dts|2016}}
+|-
+|''[[Narcos]]'' season 2
+|Crime drama
+|{{dts|2016}}
+|-
+|''[[DreamWorks Dragons]]'' season 4
+|[[Animation]]
+|{{dts|2016}}
+|-
+|''[[Club de Cuervos]]'' season 2<ref>{{cite web|title=Netflix Renews First Spanish-Language Original 'Club de Cuervos' (Exclusive)|url=http://www.hollywoodreporter.com/live-feed/netflix-renews-first-spanish-language-835022|website=hollywoodreporter.com | first=Lesley | last=Goldberg | date=October 28, 2015}}</ref>
+|[[Comedy-Drama]]
+|{{dts|2016}}
+|-
+|[[Love (TV series)|''Love'']] season 2
+|Comedy
+|TBA
+|-
+|''[[Black Mirror (TV series)|Black Mirror]]'' season 3<ref>{{cite web|url=http://www.theguardian.com/media/2015/sep/25/netflix-to-air-next-12-episodes-of-charlie-brookers-black-mirror|title=Netflix to air next 12 episodes of Charlie Brooker's Black Mirror | work=The Guardian | first=John | last=Plunkett | date=September 25, 2015}}</ref>
+|[[Science fiction]]
+|TBA
+|-
+|''[[Dinotrux]]'' season 2 and season 3
+|Animation
+|TBA
+|-
+|''[[VeggieTales in the House]]''  season 3
+|Animation
+|TBA
+|-
+|''[[Marco Polo (TV series)|Marco Polo]]'' season 2
+|[[Period drama]]
+|TBA
+|-
+|''[[Sense8]]'' season 2
+|Sci-fi/Drama
+|TBA
+|-
+|''[[Trailer Park Boys]]'' season 10 and season 11<ref name=huffpo2014-03-05>{{cite web|url=http://www.huffingtonpost.ca/2014/03/05/trailer-park-boys-netflix-canada_n_4905421.html|title='Trailer Park Boys' On Netflix Canada: Season 8, Movies Set To Stream In 2014|work=The Huffington Post}}</ref>
+|[[Mockumentary]]
+|TBA
+|}
+
+===Specials, films, miniseries===
+{| class="wikitable sortable" style="width:95%; font-size:95%;"
+|-
+! style="width:40%;"|Title
+! style="width:20%;"|Genre
+! style="width:20%;"|Format
+! style="width:20%;"|Premiere
+|-
+|''[[Tom Segura]]'': Mostly Stories
+|[[Stand-up comedy]]
+|Stand-up comedy
+|{{dts|January 8, 2016}}<ref name=films15/>
+|-
+|''Chelsea Does''<ref name=war_machine_pitt>{{cite news|last1=Pallotta|first1=Frank|title=Netflix acquires Brad Pitt's 'War Machine' for its biggest original movie yet|url=http://money.cnn.com/2015/06/08/media/netflix-buys-brad-pitt-movie/|website=CNN Money|publisher=CNN|date=June 8, 2015|accessdate=June 9, 2015}}</ref>
+|Documentary
+|Docu-series
+|{{dts|January 23, 2016}}<ref>{{cite news|last=Wright|first=Megh|title=Chelsea Handler’s Netflix Docu-Series ‘Chelsea Does’ Premieres in January|url=http://splitsider.com/2015/11/chelsea-handlers-netflix-docu-series-chelsea-does-premieres-in-january/|website=Splitsider|date=November 18, 2015|accessdate=November 18, 2015}}</ref>
+|-
+|''[[Ever After High]]'': Dragon Games
+|[[Animation]]
+|Special
+|{{dts|January 29, 2016}}<ref name=films15/>
+|-
+|''[[Crouching Tiger, Hidden Dragon: Sword of Destiny]]''
+|[[Action film|Action]]
+|Film
+|{{dts|February 26, 2016}}<ref name=films15/>
+|-
+|''[[Pee-wee's Big Holiday]]''
+|Comedy
+|Film
+|{{dts|March 2016}}<ref name=films15/>
+|-
+|''[[War Machine (film)|War Machine]]''<ref name=war_machine_pitt />
+|War drama film
+|Film
+|{{dts|2016}}
+|-
+|''[[Special Correspondents]]''
+|Comedy
+|Film
+|{{dts|2016}}
+|-
+|''[[Mascots (film)|Mascots]]''<ref>{{cite web|last1=Pedersen|first1=Erik|title=Netflix Is All Rah-Rah For Christopher Guest’s ‘Mascots’
+|url=http://deadline.com/2015/08/netflix-christopher-guests-mascots-movie-1201497172/|website=[[Deadline Hollywood]]|date=August 11, 2015|accessdate=August 13, 2015}}</ref>
+|Comedy
+|Film
+|{{dts|2016}}
+|-
+|''Okja''<ref>{{cite web|last=Hyo-won|first=Lee|title=Netflix, Brad Pitt's Plan B Back $50M Korean Movie 'Okja'|url=http://www.hollywoodreporter.com/news/netflix-brad-pitt-koreas-okja-838712|website=[[The Hollywood Reporter]]|date=November 10, 2015|accessdate=November 18, 2015}}</ref>
+|Sci-fi
+|Film
+|2016
+|-
+|''Our Planet''
+|Documentary
+|Miniseries
+|{{dts|2019}}
+|-
+|[[The Defenders (miniseries)|''Marvel's The Defenders'']]<ref name="Marvel"/>
+|Superhero
+|Miniseries
+|TBA
+|-
+|''[[The Do-Over]]''
+|Comedy
+|Film
+|TBA
+|-
+|Untitled [[Adam Sandler]] film
+|Comedy
+|Film
+|TBA
+|-
+|Untitled [[Adam Sandler]] film
+|Comedy
+|Film
+|TBA
+|-
+|''Jadotville''
+|Action
+|Film
+|TBA
+|}
+
+==Exclusive US distribution shows==
+These shows, even though Netflix lists them as Netflix originals, are shows that have been aired on different countries and Netflix has bought distribution rights to stream them in the US and other various countries.
+
+{| class="wikitable sortable" style="width:95%; font-size:95%;"
+|-
+! style="width:35%;"|Title
+! style="width:20%;"|Genre
+! style="width:20%;"|Country of Origin
+! style="width:15%;"|Seasons
+! style="width:10%;"|Run
+|-
+|''Atelier''
+|[[Drama]]
+|[[Japan]]
+|{{sort|006|1 season, 13 episodes}}
+|{{dts|2015}}–
+|-
+|''[[Between (TV series)|Between]]''
+|Science-fiction/Drama
+|[[Canada]]
+|{{sort|024|1 season, 6 episodes}}
+|{{dts|2015}}–
+|-
+|''[[Borgia (TV series)|Borgia]]''
+|[[Historical fiction]]
+|[[France]]/[[Germany]]/[[Czech Republic]]/[[Italy]]
+|{{sort|024|3 seasons, 38 episodes}}
+|{{dts|2011}}–2014
+|-
+|''[[Derek (TV series)|Derek]]''
+|[[Comedy-drama]]
+|[[United Kingdom]]
+|{{sort|024|3 seasons, 14 episodes}}
+|{{dts|2012}}–2014
+|-
+|''[[Smile PreCure!#Anime|Glitter Force]]''
+|[[Anime]]
+|[[Japan]]
+|{{sort|012|1 seasons, 40 episodes}}
+|{{dts|2012}}–2013
+|-
+|''[[Happy Valley (TV series)|Happy Valley]]''
+|Crime-drama
+|[[United Kingdom]]
+|{{sort|024|1 season, 6 episodes}}
+|{{dts|2014}}–
+|-
+|''[[Knights of Sidonia]]''
+|[[Anime]]
+|[[Japan]]
+|{{sort|012|2 seasons, 24 episodes}}
+|{{dts|2014}}–
+|-
+|''[[Lilyhammer]]''
+|[[Comedy-drama]]
+|[[Norway]]
+|{{sort|024|3 seasons, 24 episodes}}
+|{{dts|2012}}–2014
+|-
+|''[[Mako: Island of Secrets|Mako Mermaids: An H2O Adventure]]''
+|Children/teen-drama fantasy
+|[[Australia]]
+|{{sort|024|2 seasons, 52 episodes}}
+|{{dts|2014}}–
+|-
+|''[[Peaky Blinders (TV series)|Peaky Blinders]]''
+|Crime-drama
+|[[United Kingdom]]
+|{{sort|024|2 seasons, 12 episodes}}
+|{{dts|2013}}–
+|-
+|''[[Pompidou (TV series)|Pompidou]]''
+|Comedy
+|[[United Kingdom]]
+|{{sort|024|1 seasons, 6 episodes}}
+|{{dts|2015}}–
+|-
+|''[[River (TV series)|River]]''
+|Crime-drama
+|[[United Kingdom]]
+|{{sort|024|1 season, 6 episodes}}
+|{{dts|2015}}–
+|-
+|''[[Scrotal Recall]]''
+|[[Comedy-drama]]
+|[[United Kingdom]]
+|{{sort|024|1 season, 6 episodes}}
+|{{dts|2014}}–
+|-
+|''[[Short Poppies]]''
+|[[Mockumentary]]
+|[[New Zealand]]
+|{{sort|024|1 season, 8 episodes}}
+|{{dts|2014}}–
+|-
+|''[[Southcliffe]]''
+|[[Drama]]
+|[[United Kingdom]]
+|{{sort|024|1 season, 4 episodes}}
+|{{dts|2013}}–2013
+|-
+|''[[The Seven Deadly Sins (manga)|The Seven Deadly Sins]]''
+|Anime
+|[[Japan]]
+|{{sort|024|1 season, 24 episodes}}
+|{{dts|2015}}–
+|-
+|''[[The Fall (TV series)|The Fall]]''
+|Crime-drama
+|[[United Kingdom]]
+|{{sort|024|2 seasons, 11 episodes}}
+|{{dts|2013}}–
+|-
+|''[[The Returned]]''
+|Horror-drama
+|[[France]]
+|{{sort|024|1 season, 8 episodes}}
+|{{dts|2015}}–
+|-
+|''[[Wakfu (TV series)|Wakfu]]''
+|French speaking, animation
+|[[France]]
+|{{sort|024|2 seasons, 52 episodes}}
+|{{dts|2008}}–
+|-
+|''[[Witnesses (TV series)|Witnesses]]''
+|French speaking, police procedural-drama
+|[[France]]
+|{{sort|024|1 season, 6 episodes}}
+|{{dts|2015}}–
+|}
+
+==References==
+{{Reflist|30em}}
+{{Netflix}}
+
+[[Category:Netflix original programming| ]]
+[[Category:Lists of television series by network|Netflix]]
+[[Category:Internet-related lists|Netflix Programming]]

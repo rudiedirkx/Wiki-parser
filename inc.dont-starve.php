@@ -11,6 +11,12 @@ use dontstarve\FoodInfobox;
 use dontstarve\Quote;
 use dontstarve\Recipe;
 
+
+
+/**
+ * Advanced
+ */
+
 Component::register(function(&$type) {
 	$components = array(
 		'pic' => Picture::class,
@@ -61,3 +67,27 @@ class Recipe extends Component {
 		echo '<p>&lt;' . $this->properties['item'] . implode($operations) . ' = ' . $this->properties['result'] . '&gt;</p> ';
 	}
 }
+
+
+
+/**
+ * Simple
+ */
+
+$dontStarveComponents = array(
+	'Quote' => function($properties) {
+		return '<blockquote><p>' . $properties[0] . '</p><p><em>' . $properties[1] . '</em></p></blockquote>';
+	},
+	'pic' => function($properties) {
+		return ' &lt;' . $properties[1] . '&gt; ';
+	},
+	'Recipe' => function($properties) {
+		$operations = array_keys(array_filter($properties, function($value) {
+			return $value === 'yes';
+		}));
+		$operations = array_map(function($operation) {
+			return ' + ' . $operation;
+		}, $operations);
+		return '<p>&lt;' . $properties['item'] . implode($operations) . ' = ' . $properties['result'] . '&gt;</p> ';
+	},
+);

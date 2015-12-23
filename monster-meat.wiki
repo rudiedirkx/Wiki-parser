@@ -28,6 +28,27 @@ Cooking Monster Meat on a Campfire/Fire Pit or drying it on a [[Drying Rack]] to
 === Clown's ass ===
 Clowns asses are so funny!
 
+And another paragraph to really illustrate clowns' funniness!
+With a second sentence, which is not special?
+
+And another with [[complex words]].
+
+==Random table!==
+
+{| class="wikitable"
+!'''Stage'''
+!'''Effect'''
+|-
+| style="text-align:center;color:#476E1E;" |'''Green (50-100% Fresh)'''
+|Restores the full amount of [[File:HungerMeter.png|24px|link=Hunger]], [[File:HealthMeter.png|24px|link=Health]] and [[File:SanityMeter.png|24px|link=Sanity]] for a given food
+|-
+| style="text-align:center;color:#CB8A18" |'''Yellow (21-49% Stale)'''
+|Restores 2/3 of [[File:HungerMeter.png|24px|link=Hunger]], 1/3 of [[File:HealthMeter.png|24px|link=Health]] for a given food and doesn't restore any [[File:SanityMeter.png|24px|link=Sanity]]
+|-
+| style="text-align:center;color:#BF1401" |'''Red (0-20% Spoiled)'''
+|Restores 1/2 of [[File:HungerMeter.png|24px|link=Hunger]] for a given food, doesn't restore any [[File:HealthMeter.png|24px|link=Health]] and decreases [[File:SanityMeter.png|24px|link=Sanity]] by 10
+|}
+
 ==Usage {{pic|32|Icon Tools}} usagE==
 Monster Meat can be used as bait for meat-eating creatures, such as [[Spiders]] or [[Buzzards]]. Giving Monster Meat to a [[Pig]] will befriend it.  When 4 pieces of Monster Meat are fed to a [[Pig]], it will transform into a [[Werepig]] and become hostile. This can sometimes happen accidentally when [[Pig Village]]s are close to [[Spider Dens]], as Pigs will eat the Monster Meat from [[Spiders]] they kill.
 Cooked Monster Meat or Monster Jerky can be fed to [[birdcage|caged birds]] to produce [[egg]]s. A single piece of Monster Meat can be used in a number of Crock Pot recipes without producing side-effects. One of the best ways to use up large quantities of Monster Meat is by cooking [[Bacon and Eggs]] or [[Fishsticks]] which can use up 2 pieces per dish.
@@ -47,6 +68,11 @@ Monster Meat farming is a very practical thing to do especially in the earlier s
 |bird=yes
 |result=Egg
 }}
+
+===List items===
+
+* list item 1
+* list item 2
 
 =={{pic|32|Placeholder}} Trivia==
 *Contrary to popular belief, [[WX-78]] still takes damage when it eats this.

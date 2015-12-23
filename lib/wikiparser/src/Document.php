@@ -30,7 +30,7 @@ class Document {
 	}
 
 	/**
-	 *
+	 * v1
 	 */
 	public function parse( $text ) {
 		$content = $this->parser->parseDocument($text);
@@ -38,7 +38,7 @@ class Document {
 	}
 
 	/**
-	 *
+	 * v2
 	 */
 	public function parseSimple( $text, $allow = array() ) {
 		$content = $this->parser->parseDocumentSimple($text, $allow);
