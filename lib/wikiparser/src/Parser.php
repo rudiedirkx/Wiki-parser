@@ -18,10 +18,11 @@ class Parser {
 		// [[ ... ]]
 		// {| ... |}
 		// == ... ==
-		// EOL.EOL ...
+		// \n\n ...
 		// * ...
 
-		$eol = is_int(strpos($text, "\r\n")) ? '\r\n' : is_int(strpos($text, "\n")) ? '\n' : '\r';
+		$text = str_replace("\r\n", "\n", $text);
+		$text = str_replace("\r", "\n", $text);
 
 		$delims = [
 			'{|' => 'table',
@@ -33,7 +34,7 @@ class Parser {
 		];
 
 		$literalDelimiters = array_map('preg_quote', array_keys($delims));
-		$regexDelimiters = ['(?<=[\r\n])\*\s*', '={2,}', '(?:' . $eol . '){2,}'];
+		$regexDelimiters = ['(?<=[\r\n])\*\s*', '={2,}', '(?:\n){2,}'];
 		$delimiters = array_merge($literalDelimiters, $regexDelimiters);
 
 		$regex = '/(' . implode('|', $delimiters) . ')/';
