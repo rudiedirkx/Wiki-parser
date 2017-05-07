@@ -13,7 +13,18 @@ class Parser {
 	/**
 	 *
 	 */
-	public function parse( $text ) {
+	public function parseComponent( $text ) {
+		// Parse
+		// - properties  | =
+		// - refs        <ref
+		// - elements    [[
+		// - components  {{
+	}
+
+	/**
+	 *
+	 */
+	public function parseDocument( $text ) {
 		// {{ ... }}
 		// [[ ... ]]
 		// {| ... |}
@@ -53,6 +64,7 @@ class Parser {
 			$part = $parts[$i];
 
 			$type = @$delims[$part] ?: '';
+// var_dump($type);
 			$curType = $stack ? $stack[ count($stack) - 1 ] : '';
 
 			// Paragraph match if only newlines, can't trim, because spaces are NOT special
