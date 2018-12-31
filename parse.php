@@ -17,4 +17,10 @@ header('Content-type: text/plain; charset=utf-8');
 $wiki = file_get_contents($file);
 
 $parser = new Parser;
-$parser->streamParse($wiki);
+$document = $parser->streamParse($wiki);
+
+foreach ( $document as $part ) {
+	// echo $part->render() . "\n";
+}
+
+print_r($document);

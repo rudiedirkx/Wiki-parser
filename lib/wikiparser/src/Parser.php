@@ -34,6 +34,8 @@ class Parser {
 		// EOL.EOL ...
 		// * ...
 
+		// @todo <ref>...</ref> and <ref />
+
 		$eol = is_int(strpos($text, "\r\n")) ? '\r\n' : is_int(strpos($text, "\n")) ? '\n' : '\r';
 
 		$delims = [
@@ -149,17 +151,74 @@ class Parser {
 			}
 		}
 
-		// $document = array_map('trim', $document);
-		// $document = array_filter($document, 'strlen');
-		// $document = array_values($document);
+		$document = array_map('trim', $document);
+		$document = array_filter($document, 'strlen');
+		$document = array_values($document);
 
-print_r($document);
+		// @todo Separate paragraphs by more than contextless item
 
-		// @todo Do another round to glue together paragraph parts..? How to distinguish between
-		// `__NOTOC__ + {{Food Infobox` (new P) and `And another with [[complex words]]` (same P) ??
-		// Direct stream parse elements could be block or inline...
+		$document = array_map([$this, 'textToType'], $document);
 
+		return $document;
 	}
+
+	/**
+	 *
+	 */
+	protected function textToType( $text ) {
+		$f2 = substr($text, 0, 2);
+
+		// {{About|the animal}}
+		if ( $f2 == '{{' ) {
+			return $this->textToComponent($text);
+		}
+
+		// [[omnivore|omnivorous]]
+		if ( $f2 == '[[' ) {
+			return $this->textToElement($text);
+		}
+
+		if ( $text[0] == '=' ) {
+			return $this->textToHeading($text);
+		}
+
+		return $this->textToText($text);
+	}
+
+	/**
+	 *
+	 */
+	protected function textToComponent( $text ) {
+		$content = trim(substr($text, 2, -2));
+
+		$parts = explode('|', $content);
+		$type = trim(array_shift($parts));
+
+		return new \rdx\wikiparser\v3\Component(trim(implode('|', $parts)), $type);
+	}
+
+	/**
+	 *
+	 */
+	protected function textToElement( $text ) {
+		return new \rdx\wikiparser\v3\Element(trim(substr($text, 2, -2)));
+	}
+
+	/**
+	 *
+	 */
+	protected function textToHeading( $text ) {
+		return new \rdx\wikiparser\v3\Heading(trim($text, '='));
+	}
+
+	/**
+	 *
+	 */
+	protected function textToText( $text ) {
+		return new \rdx\wikiparser\v3\Text($text);
+	}
+
+
 
 	/**
 	 * v2
